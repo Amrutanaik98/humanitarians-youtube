@@ -70,3 +70,22 @@ an explicit, documented re-voice decision is made.
   AI guest lecture at Suffolk University with Yatra. No stock footage — the
   article header, four-video grid, and lecture slide/podium card are all
   generated visuals.
+- `2026-09-26-ai-that-never-forgets/` — The AI That Never Forgets: How
+  Marketing Is Learning to Read Your Mind, One Conversation at a Time. User
+  asked for a "Deep Explainer" at exactly 4:00 with no dedicated footage —
+  the toolkit's actual deep-explainer skill targets 5-10 min and requires
+  ~20-25% of beats to be pantry/archival stills, so built instead on the
+  ai-explainer chassis (disclosed substitution). Neutral, balanced,
+  observational tone per explicit request — presents the marketing-
+  personalization upside of AI persistent memory alongside its privacy
+  tradeoffs, without a verdict. 16:9 (3:49) + 9:16 (2:46, two densest middle
+  beats auto-dropped to fit the Shorts cap, outro and endcard hand-rewritten)
+  cuts.
+- `2026-09-26-weekly-recap-never-forgets/` — This Week: What Shipped. A
+  CLI-explainer weekly recap — a separate week's log from the earlier
+  weekly-recap builds — built around a real weekly_recap_v1.py, revised into
+  weekly_recap_v2.py to tag each item by category and print a shipped-count
+  (not a DONE/NEXT split, since this week had no upcoming item). Content:
+  publishing "The AI That Never Forgets" on Substack, producing four
+  Brutalist videos, and attending the team meeting. 16:9 (1:30) + 9:16 (1:35,
+  full-parity reformat, no beats dropped) cuts.
