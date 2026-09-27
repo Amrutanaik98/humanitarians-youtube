@@ -7,7 +7,7 @@
 - **Video:** 
 - **Drive:** not yet created
 - **Frictional log:** [FRICTIONAL.md](FRICTIONAL.md)
-- **This week's explainer:** [Why Jev Is Fast](../2026-09-21-explainer-why-jev-is-fast/)
+- **This week's explainer:** [Why Jev Is Fast](../09242026jev-speed/)
 
 ## What this sprint was for
 

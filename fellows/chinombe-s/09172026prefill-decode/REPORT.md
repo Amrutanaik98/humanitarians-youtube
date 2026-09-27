@@ -24,7 +24,7 @@ It also explains the pricing asymmetry this whole project routes around: output
 tokens cost several times what input tokens cost, because decode is sequential
 while prefill is not. That is why the router measures input length in characters
 and sets a per-tier **output** budget, and why
-[Sprint 2](../2026-08-31-progress-gateway-model-connection/) found real cost
+[Sprint 2](../09032026mycroft-gateway/) found real cost
 ratios of 1.4x and 19–26x where the rate card said 2x and 10x  the difference is
 entirely how much each model chooses to say.
 

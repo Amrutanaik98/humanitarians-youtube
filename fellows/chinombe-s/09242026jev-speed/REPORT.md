@@ -2,7 +2,7 @@
 
 **Week:** 21–25 Sep 2026
 **Type:** STEM / AI explainer (general topic — no sprint report backs this one)
-**Runtime:** ~4:20 · 16:9 · 12 beats
+
 
 - **Video:** TO FILL
 - **Drive:** https://drive.google.com/drive/folders/1LYJr3yRnV_77b5HQTvbN21b-z5r7EJEB?usp=sharing

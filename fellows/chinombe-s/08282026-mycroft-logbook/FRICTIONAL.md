@@ -4,12 +4,8 @@
 
 - **Video (progress):** https://www.youtube.com/watch?v=nC1xKKoPuUE
 - **Drive:** https://drive.google.com/drive/folders/1H2fjjURBSxWyUZ5dBAkl9Ced5ANGVGSJ?usp=drive_link
-**Evidence of commit:** https://github.com/nikbearbrown/mycroft/commit/b46d48e
+- **Evidence of commit:** https://github.com/nikbearbrown/mycroft/commit/b46d48e
 
-> Written retrospectively on 2026-09-24, reconstructed from commit `b46d48e`,
-> `logs/RUN_LOG.md`, `scripts/gateway/FINDINGS.md` and the test suite. Not a
-> contemporaneous account: the specifics of what I tried on which day are gone,
-> which is the argument for writing these while the work happens.
 
 **What I was working on.** The measurement layer under the routing gateway 
 a logbook that records, for every model request, which model answered, why it

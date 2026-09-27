@@ -4,7 +4,7 @@
 **Type:** STEM / AI explainer
 
 - **Video:** https://www.youtube.com/watch?v=0rRC3kx5Jd8&t=4s
-- **Drive:** https://drive.google.com/drive/folders/1dNRtEobtVoOo96AsAAauUyMaR99WWjsT
+- **Drive:** https://drive.google.com/drive/folders/1CY_suzRRK4f05C5OeNKXm-5Bw6Ynhv1H?usp=sharing
 - **Frictional log:** [FRICTIONAL.md](FRICTIONAL.md)
 
 ## What it covers

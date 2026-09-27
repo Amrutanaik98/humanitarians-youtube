@@ -4,7 +4,7 @@
 ## 2026-09-14 — topic and components exist, script and build not recorded
 
 - **Video:** https://www.youtube.com/watch?v=G-BSNylji68&t=4s
-- **Drive:** https://drive.google.com/drive/folders/1CY_suzRRK4f05C5OeNKXm-5Bw6Ynhv1H 
+- **Drive:** https://drive.google.com/drive/folders/1dNRtEobtVoOo96AsAAauUyMaR99WWjsT?usp=sharing
 - **Report:** [REPORT.md](REPORT.md)
 - **Paired sprint:** [Sprint 4 — retry system and first full run](../09172026mycroft-retry/)
 

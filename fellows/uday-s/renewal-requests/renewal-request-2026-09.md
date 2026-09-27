@@ -4,7 +4,7 @@
 **Group:** Mycroft
 **Current agreement:** 21 August 2026 → 30 September 2026
 **Requested renewal:** 1 October 2026 → 31 December 2026
-**Reporting period:** 21 August → 18 September 2026 (4 weeks, 85 hours)
+**Reporting period:** 21 August → 25 September 2026 (5 weeks, 111 hours)
 
 ### Where the evidence is
 
@@ -18,19 +18,19 @@
 
 The Mycroft market-sentiment pipeline described six processing steps in its recipe, but none of them had been written. All eleven scripts belonging to that recipe were copies of the same empty 74-line template — including the ones meant to fetch data, which made no network calls at all.
 
-Over these four weeks I wrote all six steps. Each was submitted as a pull request and all four have been merged into `nikbearbrown/mycroft`.
+Over the first four weeks I wrote all six steps. Each was submitted as a pull request and all four have been merged into `nikbearbrown/mycroft`. In week five I claimed the promotion the evidence already supported — closing the recipe's open markers, recording the gate decisions, and fixing two gates that were passing for the wrong reason.
 
-**My contribution:** I am the sole author of the four pipeline pull requests and of all eight videos — script, scene code, fact-check and render for each.
+**My contribution:** I am the sole author of the pipeline pull requests and of all ten videos — script, scene code, fact-check and render for each.
 
 To show the steps actually work rather than merely run, I also built a test set of 18 deliberately broken records. Each defect is assigned in advance to the step that is supposed to catch it, so the result is a number rather than an opinion: all 18 are caught, at the exact locations expected.
 
-Alongside the engineering I produced eight videos, about 26 minutes in total. Four document the pipeline work itself; four explain AI and STEM topics. All are merged into `nikbearbrown/humanitarians-youtube`.
+Alongside the engineering I produced ten videos, about 33 minutes in total. Five document the pipeline work itself; five explain AI and STEM topics. All are merged into `nikbearbrown/humanitarians-youtube`.
 
-**Hours: 85 across four weeks — 22, 23, 20, 20. Every week at or above 20, each with a dated frictional log and a merged pull request.**
+**Hours: 111 across five weeks — 22, 23, 20, 20, 26. Every week at or above 20, each with a dated frictional log.**
 
 ---
 
-## 1. The pipeline — six steps, all merged
+## 1. The pipeline — six steps built, then promoted
 
 | Delivered | Pull request | Merged |
 |---|---|---|
@@ -38,8 +38,11 @@ Alongside the engineering I produced eight videos, about 26 minutes in total. Fo
 | Steps 2–3, ingest and shape validation | [mycroft #37](https://github.com/nikbearbrown/mycroft/pull/37) | 2026-09-04 |
 | Steps 4–5, quality check and scoring | [mycroft #40](https://github.com/nikbearbrown/mycroft/pull/40) | 2026-09-11 |
 | Step 6, the human-readable report | [mycroft #48](https://github.com/nikbearbrown/mycroft/pull/48) | 2026-09-18 |
+| Recipe promotion, gate decisions, gate fixes | not yet opened | — |
 
-Together: 4 commits, 53 files, roughly 8,900 new lines.
+Together: 4 commits, 53 files, roughly 8,900 new lines, plus the promotion commits `d6f5b90`, `55546b5`, `4157a8e`.
+
+With the scripts written, the recipe still said they did not exist. That was closed: all 13 `[TODO: DEV]` markers resolved, lifecycle frontmatter set to `RUNNABLE-SAMPLE` with the two open TODOs marked in the body, `logs/gate-decisions/` created for gates 1–4, and three contract fixes. Gates 4 and 5 could each pass while a TODO marker was still present; both now have real failure paths. Frictional log: [recipe promotion and gate fixes](../frictional-logs/2026-09-25-recipe-promotion-and-gate-fixes.md).
 
 ### How the steps are designed
 
@@ -56,7 +59,7 @@ Each step was also tested for what it must *not* catch, so responsibilities do n
 
 Running the clean test set and the deliberately corrupted one produces the **same headline score — 64, "slightly bullish"** — even though four rows beneath one of them are contaminated. The number alone cannot tell the two apart. The flags can, which is why the steps raise them.
 
-## 2. Eight videos (about 26 minutes)
+## 2. Ten videos (about 33 minutes)
 
 **Mycroft engineering series** — four episodes covering the pipeline work above. Each is tied to a specific commit and picks up where the previous episode's open list of unfinished items left off. The series ends with all six steps written.
 
@@ -66,6 +69,7 @@ Running the clean test set and the deliberately corrupted one produces the **sam
 | 2 | 2026-09-03 | Transport, Do Not Repair | [Week 2 Drive](https://drive.google.com/drive/folders/1AL97V0-u9K991N0CO1Jgo7BVe-Qs6KgT) | [source](https://github.com/nikbearbrown/humanitarians-youtube/tree/main/fellows/uday-s/2026-09-03-mycroft-weekly-transport-do-not-repair) |
 | 3 | 2026-09-10 | Both Sets Scored 64 | [Week 3 Drive](https://drive.google.com/drive/folders/1U8GSp28cr9roLlnD4PnEkTW84G2S0ohl) | [source](https://github.com/nikbearbrown/humanitarians-youtube/tree/main/fellows/uday-s/2026-09-10-mycroft-weekly-both-sets-scored-64) |
 | 4 | 2026-09-17 | It Never Says Pass | [Week 4 Drive](https://drive.google.com/drive/folders/1s3_KJqqub5sMbM4s3QZsYnOvMbdYBt5E) | [source](https://github.com/nikbearbrown/humanitarians-youtube/tree/main/fellows/uday-s/2026-09-17-mycroft-weekly-it-never-says-pass) |
+| 5 | 2026-09-25 | Passing For The Wrong Reason | [Week 5 Drive](https://drive.google.com/drive/folders/13h9TfjE6cy931OmpU1qWw2mKE_dgEazZ) | [source](https://github.com/nikbearbrown/humanitarians-youtube/tree/main/fellows/uday-s/2026-09-25-mycroft-weekly-passing-for-the-wrong-reason) |
 
 **Four AI and STEM explainers.**
 
@@ -75,6 +79,7 @@ Running the clean test set and the deliberately corrupted one produces the **sam
 | 2026-09-03 | The Brand That Didn't Exist | Generative Engine Optimization | [Week 2 Drive](https://drive.google.com/drive/folders/1AL97V0-u9K991N0CO1Jgo7BVe-Qs6KgT) | [source](https://github.com/nikbearbrown/humanitarians-youtube/tree/main/fellows/uday-s/2026-09-03-generative-engine-optimization) |
 | 2026-09-10 | The Gap You Can Actually Close | Zero-day vulnerabilities, from a defensive angle | [Week 3 Drive](https://drive.google.com/drive/folders/1U8GSp28cr9roLlnD4PnEkTW84G2S0ohl) | [source](https://github.com/nikbearbrown/humanitarians-youtube/tree/main/fellows/uday-s/2026-09-10-zero-day-vulnerability) |
 | 2026-09-18 | The Constraint Isn't Speed | 6G and what it means for IoT| [Week 4 Drive](https://drive.google.com/drive/folders/1s3_KJqqub5sMbM4s3QZsYnOvMbdYBt5E) | [source](https://github.com/nikbearbrown/humanitarians-youtube/tree/main/fellows/uday-s/2026-09-18-6g-and-iot) |
+| 2026-09-25 | The Arrow Points The Other Way | Quantum AI — which direction the help actually flows | [Week 5 Drive](https://drive.google.com/drive/folders/13h9TfjE6cy931OmpU1qWw2mKE_dgEazZ) | [source](https://github.com/nikbearbrown/humanitarians-youtube/tree/main/fellows/uday-s/2026-09-25-quantum-ai) |
 
 Every folder contains a `FACTCHECK.md`, `SOURCES.md` and `BUILD-LOG.md` showing where each figure on screen came from and how it was checked.
 
@@ -82,7 +87,7 @@ Every folder contains a `FACTCHECK.md`, `SOURCES.md` and `BUILD-LOG.md` showing 
 
 ## Weekly evidence
 
-85 hours across four weeks, every week at or above 20. Hours are self-reported; each week's dated frictional log records what was worked on, and the pull request and commit show what was delivered.
+111 hours across five weeks, every week at or above 20. Hours are self-reported; each week's dated frictional log records what was worked on, and the pull request or commit shows what was delivered.
 
 | Week | Hours | Delivered | Videos | Frictional log | Work evidence |
 |---|---|---|---|---|---|
@@ -90,8 +95,9 @@ Every folder contains a `FACTCHECK.md`, `SOURCES.md` and `BUILD-LOG.md` showing 
 | 2 · 08-28 → 09-03 | 23 | Steps 2–3; 2 videos | [Week 2](https://drive.google.com/drive/folders/1AL97V0-u9K991N0CO1Jgo7BVe-Qs6KgT) | [step 2](../frictional-logs/2026-09-03-step-2-ingest-declared-inputs.md) · [step 3](../frictional-logs/2026-09-03-step-3-validate-data-shape.md) | [mycroft #37](https://github.com/nikbearbrown/mycroft/pull/37) · [`ec1ea417`](https://github.com/nikbearbrown/humanitarians-youtube/commit/ec1ea417) |
 | 3 · 09-04 → 09-10 | 20 | Steps 4–5; 2 videos | [Week 3](https://drive.google.com/drive/folders/1U8GSp28cr9roLlnD4PnEkTW84G2S0ohl) | [step 4](../frictional-logs/2026-09-10-step-4-transform-and-quality-check.md) · [step 5](../frictional-logs/2026-09-10-step-5-run-approved-tools.md) | [mycroft #40](https://github.com/nikbearbrown/mycroft/pull/40) · [`0188c63d`](https://github.com/nikbearbrown/humanitarians-youtube/commit/0188c63d) |
 | 4 · 09-11 → 09-18 | 20 | Step 6; 2 videos | [Week 4](https://drive.google.com/drive/folders/1s3_KJqqub5sMbM4s3QZsYnOvMbdYBt5E) | [step 6](../frictional-logs/2026-09-17-step-6-produce-human-report.md) | [mycroft #48](https://github.com/nikbearbrown/mycroft/pull/48) · [`3f727cf3`](https://github.com/nikbearbrown/humanitarians-youtube/commit/3f727cf3) |
+| 5 · 09-19 → 09-25 | 26 | Recipe promotion, gate decisions, gate fixes; 2 videos | [Week 5 Drive](https://drive.google.com/drive/folders/13h9TfjE6cy931OmpU1qWw2mKE_dgEazZ) | [promotion and gate fixes](../frictional-logs/2026-09-25-recipe-promotion-and-gate-fixes.md) | commits `d6f5b90` · `55546b5` · `4157a8e` (not yet merged upstream) |
 
-Each video folder also records the exact time its video was compiled, in `BUILD-LOG.md` and in the `build.at` field of `beat_sheet.json`:
+Each video folder records the exact time its video was compiled, in the `build.at` field of `beat_sheet.json` (and, for the first eight, in `BUILD-LOG.md`):
 
 | Compiled | Video |
 |---|---|
@@ -103,6 +109,8 @@ Each video folder also records the exact time its video was compiled, in `BUILD-
 | 2026-09-10 18:00 | The Gap You Can Actually Close |
 | 2026-09-17 23:19 | It Never Says Pass |
 | 2026-09-18 00:33 | The Constraint Isn't Speed |
+| 2026-09-25 02:31 | Passing For The Wrong Reason |
+| 2026-09-25 02:58 | The Arrow Points The Other Way |
 
 **Supervision:** Shradha Katte. Review evidence is the merged pull requests above — four in `nikbearbrown/mycroft`, three in `nikbearbrown/humanitarians-youtube`.
 
@@ -112,6 +120,8 @@ Each video folder also records the exact time its video was compiled, in `BUILD-
 
 Stated plainly so they are not discovered later:
 
+- **Week five's engineering is not yet upstream.** The promotion, gate decisions and gate fixes exist as commits (`d6f5b90`, `55546b5`, `4157a8e`) but have no pull request in `nikbearbrown/mycroft`; the most recent merged one is [#48](https://github.com/nikbearbrown/mycroft/pull/48) from 18 September. Opening that PR is the first item in the October plan.
+- **The two newest videos have no `BUILD-LOG.md`.** The earlier eight each carry one, which doubles as that video's own frictional log. For week five the engineering frictional log exists, but the two videos themselves have no build record.
 - **The frictional logs here are copies.** The working originals stay private in the `mycroft` repository; these are the same records, published so they can be opened as evidence.
 - **The GitHub folders do not contain the videos.** They hold each video's script, scene code, fact-check and source list. The finished videos are only in the Drive folders linked above.
 - **Weekly hours are self-reported.** The frictional logs are dated per step and record what was worked on, and the pull requests and build timestamps show dated output, but none of these is a timesheet: they evidence *work done*, not hours counted.
@@ -121,14 +131,13 @@ Stated plainly so they are not discovered later:
 
 Each phase is ordered so it unblocks the one after it.
 
-### Week 1 — finish the one recipe that is complete
+### Week 1 — close out the finished recipe and get it upstream
 
-Six working scripts now exist, but the recipe they belong to still says they do not. The aim is to get this recipe honestly promoted to `RUNNABLE-SAMPLE`.
+Most of this phase was pulled forward into week five of the reporting period — the recipe is promoted, the markers are closed, and gates 1–4 are recorded. What remains:
 
-- **By 2 Oct** — write the `RUN_LOG.md` entry covering steps 1–6. At the moment the reports refer to scripts that no logged run produced, which breaks the chain from report back to source.
-- **By 5 Oct** — close the 13 `[TODO: DEV]` markers still in the recipe and add its lifecycle details. The evidence needed for that promotion already exists — sample runs, audits, conformance output — it simply has not been claimed.
-- **By 6 Oct** — create `logs/gate-decisions/` and record decisions for gates 1 to 4. That folder does not exist yet, so no gate has ever been formally cleared.
-- **By 7 Oct** — fix three known contract problems: a missing `type_errors` field in step 3, a mismatch in the reader, and a conflict over log paths in the template.
+- **By 2 Oct** — open the pull request for the promotion and gate-fix commits (`d6f5b90`, `55546b5`, `4157a8e`). None of that work is in `nikbearbrown/mycroft` yet.
+- **By 5 Oct** — write the `RUN_LOG.md` entry covering steps 1–6. The reports still refer to scripts that no logged run produced, which breaks the chain from report back to source. This is the last piece of the promotion that is not yet evidenced.
+- **By 7 Oct** — resolve the two TODOs the recipe now declares openly: a DEFINE on step 5's unattributed scoring constants, and an APPROVE on gate 5.
 
 ### Week 2 — make the automated checks actually check
 
@@ -142,7 +151,7 @@ Six working scripts now exist, but the recipe they belong to still says they do 
 97 of the 99 recipes describe a command-line tool that has never been built. Each recipe tells the reader to run commands like `snickerdoodle run <recipe> --step <name>` and `snickerdoodle gate <recipe> --gate N --decision approve`. In practice the six steps are run by calling the Python scripts directly.
 
 - **By 22 Oct** — build `run` first. The six steps already share one interface — the same input, output and dry-run options, results printed as JSON, and a non-zero exit when the run should stop — so there is a working pattern to follow.
-- **By 28 Oct** — build `gate`, which produces the same gate-decision records that Week 1 creates by hand.
+- **By 28 Oct** — build `gate`, which generates the gate-decision records that were written by hand in week five.
 
 ### Ongoing — reuse the test-fixture approach
 

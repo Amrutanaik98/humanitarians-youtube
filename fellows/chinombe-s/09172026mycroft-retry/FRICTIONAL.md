@@ -2,9 +2,9 @@
 
 ## 2026-09-17 — one retry, and the first full run
 
-- **Video (progress):** 
+- **Video (progress):** https://www.youtube.com/watch?v=VndHWZ2dPFI&t=10s
 - **Drive:** https://drive.google.com/drive/folders/1OopER7YqxoKf_w_qwXM98Jh9C2Yxwm6l?usp=drive_link
-**Evidence of commit:** https://github.com/nikbearbrown/mycroft/commit/d2355422cf45a7951881cc4547a2b90a5e266678
+- **Evidence of commit:** https://github.com/nikbearbrown/mycroft/commit/d2355422cf45a7951881cc4547a2b90a5e266678
 
 
 **What I was working on.** The retry rule  when a free check fails, try once on

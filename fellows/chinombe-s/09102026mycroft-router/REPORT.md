@@ -1,8 +1,8 @@
 # Sprint 3 — Task policy, router, and a frozen test set
 
-**Week:** 7–11 Sep 2026 · logged 2026-09-10
-**Project:** Mycroft — Adaptive Model Routing & Inference Gateway
-**Evidence of commit:** https://github.com/nikbearbrown/mycroft/commit/68bbeb5d1ee5b7e53bd283d17dc516024a2b5589
+- **Week:** 7–11 Sep 2026 · logged 2026-09-10
+- **Project:** Mycroft — Adaptive Model Routing & Inference Gateway
+- **Evidence of commit:** https://github.com/nikbearbrown/mycroft/commit/68bbeb5d1ee5b7e53bd283d17dc516024a2b5589
 
 - **Video:** https://www.youtube.com/watch?v=MiWZyDMCR50
 - **Drive:** https://drive.google.com/drive/folders/1xOoXuHBwvOA8mb8O3YAUd3hiCSPezVJB

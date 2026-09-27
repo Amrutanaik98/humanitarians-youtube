@@ -15,6 +15,7 @@ These cover the six steps of `market-sentiment-analysis-part-1` in
 | 2026-09-10 | [Step 4 — transform and quality check](./2026-09-10-step-4-transform-and-quality-check.md) | [mycroft #40](https://github.com/nikbearbrown/mycroft/pull/40) |
 | 2026-09-10 | [Step 5 — run approved tools](./2026-09-10-step-5-run-approved-tools.md) | [mycroft #40](https://github.com/nikbearbrown/mycroft/pull/40) |
 | 2026-09-17 | [Step 6 — produce human report](./2026-09-17-step-6-produce-human-report.md) | [mycroft #48](https://github.com/nikbearbrown/mycroft/pull/48) |
+| 2026-09-25 | [Recipe promotion to RUNNABLE-SAMPLE, and the gate fixes](./2026-09-25-recipe-promotion-and-gate-fixes.md) | not yet merged upstream |
 
 ## Where the video work's logs are
 

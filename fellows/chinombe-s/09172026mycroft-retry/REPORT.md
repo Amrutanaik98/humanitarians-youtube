@@ -5,7 +5,7 @@
 **Evidence of commit:** https://github.com/nikbearbrown/mycroft/commit/d2355422cf45a7951881cc4547a2b90a5e266678
 
 - **Video:** https://www.youtube.com/watch?v=VndHWZ2dPFI
-- **Drive:** https://drive.google.com/drive/folders/1OopER7YqxoKf_w_qwXM98Jh9C2Yxwm6I
+- **Drive:** https://drive.google.com/drive/folders/1OopER7YqxoKf_w_qwXM98Jh9C2Yxwm6l?usp=sharing
 - **Frictional log:** [FRICTIONAL.md](FRICTIONAL.md)
 - **This week's explainer:** [Prefill vs decode](../09172026prefill-decode/)
 

@@ -1,8 +1,8 @@
 # Sprint 1 — Request logbook
 
-**Week:** 24–28 Aug 2026 · merged 2026-09-02 as commit `b46d48e`
-**Project:** Mycroft — Adaptive Model Routing & Inference Gateway
-**Evidence of commit:** https://github.com/nikbearbrown/mycroft/commit/b46d48e
+- **Week:** 24–28 Aug 2026 · merged 2026-09-02 as commit `b46d48e`
+- **Project:** Mycroft — Adaptive Model Routing & Inference Gateway
+- **Evidence of commit:** https://github.com/nikbearbrown/mycroft/commit/b46d48e
 
 - **Video:** [Why We Built the Mycroft Log Book Before the AI Router](https://www.youtube.com/watch?v=nC1xKKoPuUE)
 - **Drive:** https://drive.google.com/drive/folders/1H2fjjURBSxWyUZ5dBAkl9Ced5ANGVGSJ

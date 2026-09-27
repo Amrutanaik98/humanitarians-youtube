@@ -56,6 +56,14 @@ measured clock — see that episode's `BUILD-LOG.md`, "REVISION 2".
   topic explainer on 6G and IoT: three constraints (POWER / COVERAGE / COST PER
   NODE), speed on none of them, and a vendor's own forecast that 40% of 2030 IoT
   connections still won't use 6G. 11 beats · ~3:51 · **4K**.
+- [2026-09-25 — Passing For The Wrong Reason](./2026-09-25-mycroft-weekly-passing-for-the-wrong-reason/) —
+  weekly work report on `mycroft` @ `4157a8e`, **episode 5**: three questions for
+  any automated check, and two gates that were passing because a TODO marker was
+  still there. 13 beats · ~3:10.
+- [2026-09-25 — The Arrow Points The Other Way](./2026-09-25-quantum-ai/) —
+  topic explainer on quantum AI: the demonstrated wins run the other way — machine
+  learning improving quantum error correction, not qubits speeding up pattern
+  finding. 11 beats · ~3:49.
 
 The two 2026-08-27 folders carry a `short/` subfolder: a derivative 1080×1920 cut
 for YouTube Shorts, reusing the parent's audio with only the funnel outro
@@ -67,13 +75,13 @@ regenerated. Both Shorts pass GATE V with **BLOCKER 0**. Everything from
 the same slots with no beat re-rendered. The earlier six can be upgraded the
 same way whenever it is wanted.
 
-**Series continuity:** the Mycroft weekly is a four-part arc, and each episode
+**Series continuity:** the Mycroft weekly is a running series, and each episode
 picks up the previous ledger — ep 1 opens on six steps marked `[TODO: DEV]` and
 closes on "gate 2 cannot clear"; ep 2 resolves two rows of that list; ep 3's
 falsifiability beat lands back on ep 1's frozen corpus; ep 4 closes the ledger
 at six of six steps and finds the same ep-1 defect one level up (a gate with
 nothing to fail). Watch them in order:
-`9ef4e7f` → `bdc1bc1` → `253ee74` → `aa0c0fe`.
+`9ef4e7f` → `bdc1bc1` → `253ee74` → `aa0c0fe` → `4157a8e`.
 
 **Dual-use note:** *The Gap You Can Actually Close* is a security topic handled
 defensively. It explains what the term names, reports published statistics, and

@@ -3,7 +3,7 @@
 **Week:** 31 Aug – 4 Sep 2026
 **Type:** STEM / AI explainer
 
-- **Video:** not recorded
+- **Video:** not uploaded
 - **Drive:** https://drive.google.com/drive/folders/1-H-vE7c3x-pJmIU_Jw5rjhPBydSJfA8q
 
 ## What it covers

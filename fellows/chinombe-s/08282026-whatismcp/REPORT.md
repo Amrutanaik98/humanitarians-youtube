@@ -4,7 +4,7 @@
 **Type:** STEM / AI explainer
 
 - **Video:** [MCP](https://www.youtube.com/watch?v=a1tiMgiQDfg)
-- **Drive:** https://drive.google.com/drive/folders/1BS4mqXHacyxOlfFH9vQwKDVt2q36ZS23
+- **Drive:** https://drive.google.com/drive/folders/1BS4mqXHacyxOIfFH9vQwKDVt2q36ZS23?usp=sharing
 
 ## What it covers
 

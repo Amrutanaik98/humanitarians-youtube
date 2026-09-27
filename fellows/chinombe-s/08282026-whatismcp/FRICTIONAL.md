@@ -4,8 +4,8 @@
 
 ## 2026-08-24 — the CLI explainer, in two aspect ratios
 
-- **Video:** [MCP](https://www.youtube.com/watch?v=a1tiMgiQDfg) — verified: title and channel ("humanitarians ai") checked directly
-- **Drive:** https://drive.google.com/drive/folders/1BS4mqXHacyxOlfFH9vQwKDVt2q36ZS23 — cited from the sprint tracker, contents not independently verified
+- **Video:** [MCP](https://www.youtube.com/watch?v=a1tiMgiQDfg) 
+- **Drive:** https://drive.google.com/drive/folders/1BS4mqXHacyxOIfFH9vQwKDVt2q36ZS23?usp=sharing 
 - **Report:** [REPORT.md](REPORT.md)
 - **Paired sprint:** [Sprint 1 — request logbook](../08282026-mycroft-logbook/)
 
