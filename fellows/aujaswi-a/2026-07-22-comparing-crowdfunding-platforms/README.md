@@ -5,7 +5,7 @@
 **Format:** 4K source, 16:9 (3840×2160) and 9:16 (2160×3840) native, 30fps
 **Voice:** af_bella (Kokoro)
 **Beat sheet:** `beat_sheet.json` (this folder, landscape) / `vertical/beat_sheet.json` (portrait)
-**Video (Google Drive):** [https://drive.google.com/drive/folders/1Dj5fexhkk5gFEmruJzQmXyXFEUAgCuzR?usp=drive_link](https://drive.google.com/drive/folders/1Dj5fexhkk5gFEmruJzQmXyXFEUAgCuzR?usp=drive_link) (shared folder — all 12 STEM videos)
+**Video (Google Drive):** [https://drive.google.com/drive/folders/1gbNYdIpijRRreFDtXLSIOazKd6XW_KtI?usp=drive_link](https://drive.google.com/drive/folders/1gbNYdIpijRRreFDtXLSIOazKd6XW_KtI?usp=drive_link)
 
 ## Why This Is Being Pushed Now
 
