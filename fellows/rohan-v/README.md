@@ -4,17 +4,20 @@
 **Project:** Lyrical Literacy  
 **GitHub:** [@rohanvijaykumar](https://github.com/rohanvijaykumar)  
 **Supervisor:** Nina H.  
-**Agreement period:** 11 Aug — 30 Sep 2026 (renewal requested: [RENEWAL.md](./RENEWAL.md))
+**Agreement period:** 11 Aug — 30 Sep 2026
 
-Humanitarians AI fellow. Weekly STEM explainers for the Lyrical Literacy project.
+Project Manager for Lyrical Literacy: I coordinate the project and build its onboarding material, the Suno and
+Midjourney tutorial series for new volunteers. I also make two Brutalist videos a week (STEM and progress).
 
-- **Voice:** Kokoro `af_bella` — my persistent narrator for every episode (FELLOWS-SUBMISSION). Speed `0.95` is recorded only for the 2026-08-21 pair; later builds record none, i.e. the generator default `1.0`
+**Renewal request:** [RENEWAL.md](./RENEWAL.md) · **Weekly hours:** [HOURS.md](./HOURS.md)
+
+- **Voice:** Kokoro `af_bella`, the same AI narrator on every episode
 - **Channel chip:** `@HumanitariansAI`
 - **Builder:** `ai-explainer` on the `claude-hai` brand (Pragmatist register)
 
 Rebuild with [brutalist.art](https://github.com/nikbearbrown/brutalist.art). Renders — narration, beat clips and the 4K masters — go to Google Drive, one dated folder per week, and each work folder's README links its own. Anything used to *build* a video (captures, pantry stills, sfx) is committed beside it, per the [fellows README](../README.md).
 
-Masters ship at 1080p by default. For 4K: Manim `-qk -r 3840,2160`, `ART_REMOTION_SCALE=2` on Remotion bookends, then `compile.py --height 2160` (16:9) or `--height 3840` (9:16).
+Every master is 4K: `./art final <reel>` (3840×2160) and `./art final <reel>/vertical --height 3840` (2160×3840).
 
 ## Week of 2026-09-25
 
