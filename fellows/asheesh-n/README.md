@@ -1,20 +1,11 @@
 # Asheesh N.
 
 **Role:** Research Analyst  
-**Project:** _to be filled in_  
+**Project:** SurveyMind — Response Pattern Realism Study
 **GitHub:** [@asheeshnellutla92](https://github.com/asheeshnellutla92)
 
-## What's in this folder
+**Research Question:**
+Do SurveyMind's AI-generated synthetic survey respondents actually replicate real human personality response patterns — not just plausible individual trait scores, but the statistical relationships between traits?
 
-No work in this folder yet. Each piece of work gets its own dated,
-lowercase-kebab subfolder — `YYYY-MM-DD-short-slug/` — holding its
-`beat_sheet.json`, README, sources and build assets.
+SurveyMind's own paper states this validation has not been run. This project builds the test: a statistical pipeline comparing real human data against synthetic data on a pre-registered threshold, decided before any comparison is run, so the bar can't move after seeing results.
 
-## Frictional log
-
-Every work subfolder here carries its own `FRICTIONAL.md` — a dated record of the process
-behind that specific piece of work, kept beside the evidence it describes: what was tried
-and expected, where it resisted and what was done next, what Claude or another person
-contributed and what was accepted, changed or rejected, and what is now understood or
-still open. Append as you go; never rewrite an earlier entry. It is not graded and not a
-performance review. See <https://www.humanitarians.ai/fellows> for what an entry contains.
