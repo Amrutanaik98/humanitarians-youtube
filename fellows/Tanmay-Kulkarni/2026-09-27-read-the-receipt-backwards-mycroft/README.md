@@ -54,9 +54,9 @@ Drive links added 2026-09-28. Add the YouTube URL once each film is live.
 
 **Placeholders to fill in the descriptions:**
 - `read-the-receipt-backwards-youtube.md`: `[paste the repository link here]`.
-- `read-the-receipt-backwards-short-youtube.md`: `[paste the full video's YouTube link here]`
-  and `[paste the repository link here]`. Once the long is live, also set it as the Short's related
-  video in YouTube Studio.
+- `read-the-receipt-backwards-short-youtube.md`: `[paste the repository link here]`. The full-video
+  line currently points to the long's Drive link. Once the long is live, swap in its YouTube URL and set
+  it as the Short's related video in YouTube Studio.
 
 ## Uploading: three choices only you can make
 

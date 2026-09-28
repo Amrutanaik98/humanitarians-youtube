@@ -13,7 +13,7 @@ how that check works.
 
 The full video reads the whole receipt, line by line:
 Read the Receipt Backwards: Auditing an AI Agent's Purchase (4:31)
-[paste the full video's YouTube link here]
+https://drive.google.com/file/d/1PsuSUheQf3agC9CeCh2Je1zOBIXAFpxY/view?usp=drive_link
 
 The build (82 tests, plain Python, mock data only): [paste the repository link here]
 
