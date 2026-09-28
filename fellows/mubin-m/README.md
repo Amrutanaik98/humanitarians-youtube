@@ -1,3 +1,18 @@
+# Mubin M.
+
+**Role:** AI Engineer  
+**Project:** _to be filled in_  
+**GitHub:** [@MUBINMODI](https://github.com/MUBINMODI)
+
+## Frictional log
+
+Every work subfolder here carries its own `FRICTIONAL.md` — a dated record of the process
+behind that specific piece of work, kept beside the evidence it describes: what was tried
+and expected, where it resisted and what was done next, what Claude or another person
+contributed and what was accepted, changed or rejected, and what is now understood or
+still open. Append as you go; never rewrite an earlier entry. It is not graded and not a
+performance review. See <https://www.humanitarians.ai/fellows> for what an entry contains.
+
 <!-- BEGIN BRUTALIST REBUILD GUIDE -->
 
 # Wrong, Safely.
@@ -6,7 +21,7 @@
 
 **Topic:** IRREDUCIBLY HUMAN · AGENT SYSTEM DESIGN
 
-Made by Mubin Modi. Published on **@HumanitariansAI**.
+Made by Mubin M.. Published on **@HumanitariansAI**.
 
 An explainer on how agentic systems work in production, taught through one worked
 example: a rescheduling agent asked to move a Tuesday appointment to Thursday
@@ -23,7 +38,7 @@ every step returns clean, the final message reads correctly, and a policy check 
 never evaluated.
 
 Source: `agent-storyboard-production-package.md` — "The Reschedule", an 8:10 storyboard
-by Mubin Modi. This reel is the `ai-explainer` compression of it to one insight; the
+by Mubin M.. This reel is the `ai-explainer` compression of it to one insight; the
 full 13-scene arc remains a `deep-explainer` candidate.
 
 ## Make your own version

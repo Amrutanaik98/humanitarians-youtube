@@ -1,4 +1,8 @@
-# Charitha Sree Veluru — Fellow
+# Charitha V.
+
+**Role:** AWS Specialist  
+**Project:** _to be filled in_  
+**GitHub:** [@VelCharitha77](https://github.com/VelCharitha77)
 
 Humanitarians AI fellow · Physics Vol. 1 (OpenStax interactive textbook) · @HumanitariansAI
 
@@ -13,7 +17,7 @@ Humanitarians AI fellow · Physics Vol. 1 (OpenStax interactive textbook) · @Hu
 
 Suggestion basis: female-coded first name → `af_*`. Stated preference overrides this.
 
-Required PM intro pattern (spoken): *"This is Charitha Sree Veluru in for Sanjana about [topic]."*
+Required PM intro pattern (spoken): *"This is Charitha V. in for Sanjana about [topic]."*
 
 ## Folder layout
 
@@ -65,6 +69,15 @@ VIDEO_TTS=edge python build_videos_bookwide.py   # agents + book-wide pair
 
 Do not commit `.env`, `.venv/`, or `output/*.mp4`.
 
+
+## Frictional log
+
+Every work subfolder here carries its own `FRICTIONAL.md` — a dated record of the process
+behind that specific piece of work, kept beside the evidence it describes: what was tried
+and expected, where it resisted and what was done next, what Claude or another person
+contributed and what was accepted, changed or rejected, and what is now understood or
+still open. Append as you go; never rewrite an earlier entry. It is not graded and not a
+performance review. See <https://www.humanitarians.ai/fellows> for what an entry contains.
 
 <!-- BEGIN BRUTALIST REBUILD GUIDE -->
 

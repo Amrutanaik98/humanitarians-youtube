@@ -1,4 +1,8 @@
-# Novia Dsilva
+# Novia D.
+
+**Role:** Data Scientist  
+**Project:** _to be filled in_  
+**GitHub:** [@Novia-Dsilva](https://github.com/Novia-Dsilva)
 
 Fellow videos for the Medhavi cancer-textbook fact-check CLI series (Humanitarians AI).
 
@@ -29,3 +33,12 @@ The original workbook was the record: one row per assertion, one **Sites Visited
 - **Methodology report:** [OneDrive](https://1drv.ms/t/c/b194bf3e40fce876/IQDlgwNSfLCQS6huw3mgrwQLAasS39sJQ5Y8qIgUoq4bPGo?e=arpKMk)
 
 Rebuild with the free local toolkit (`git clone https://github.com/nikbearbrown/brutalist.art.git`), then `./art run <episode>`. Masters and mp3s stay local; they are gitignored.
+
+## Frictional log
+
+Every work subfolder here carries its own `FRICTIONAL.md` — a dated record of the process
+behind that specific piece of work, kept beside the evidence it describes: what was tried
+and expected, where it resisted and what was done next, what Claude or another person
+contributed and what was accepted, changed or rejected, and what is now understood or
+still open. Append as you go; never rewrite an earlier entry. It is not graded and not a
+performance review. See <https://www.humanitarians.ai/fellows> for what an entry contains.
