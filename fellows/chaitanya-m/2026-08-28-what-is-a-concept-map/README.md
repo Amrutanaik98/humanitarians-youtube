@@ -11,7 +11,7 @@ and diagram on a fixed frame, four colours, hard cuts only.
 | **Format** | 3840×2160 and 2160×3840, 24 fps, h264, yuv420p, bt709 |
 | **Voice** | Kokoro `am_onyx` — local, free, no API · **predates the 2026-09-17 re-voice** |
 | **Beats** | 10 · 9 script scenes + spoken intro · **no slates**, 10/10 filled |
-| **Presenter** | Chaitanya Malepati |
+| **Presenter** | Chaitanya M. |
 | **Series** | Medhavy research log |
 | **Built with** | [brutalist.art](https://github.com/nikbearbrown/brutalist.art), used read-only |
 | **Status** | Built · QC'd · fact-checked · GATE P signed 2026-09-17 · **not published** |
@@ -71,7 +71,7 @@ into the beat sheet as `actual_duration_s`, and the visuals conform to *that*.
 The script targeted 5:15. The narration measured 3:48.86 — 96 seconds under. I
 did not pad the gap with holds; that buys runtime with dead air. The shortfall
 is logged in [`BUILD-LOG.md`](BUILD-LOG.md) with the per-beat drift table and
-three honest options for closing it. [`mp3/timings.json`](mp3/timings.json) is
+three honest options for closing it. [`timings.json`](timings.json) is
 the measured clock everything else was cut against.
 
 ## 4 — Render the visuals out-of-tree
@@ -189,8 +189,8 @@ Beat-by-beat timing, motion, and on-screen content: [`SHOTLIST.md`](SHOTLIST.md)
 beat_sheet.json          the reel itself: every beat, its narration, its
                          visual, its measured duration, its build stamp
 short/beat_sheet.json    the 9:16 cut, 2:40.04, capped under 3:00
-mp3/timings.json         the measured clock — what the visuals conform to
-short/mp3/timings.json   same, for the short
+timings.json             the measured clock — what the visuals conform to
+short/timings.json       same, for the short
 script.md                the source script: art direction, nine scenes, appendices
 scenes/render_scenes.py  the renderer — deterministic, Pillow → ffmpeg
 README.md                this file

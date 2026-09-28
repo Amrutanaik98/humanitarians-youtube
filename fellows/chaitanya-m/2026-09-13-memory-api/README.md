@@ -11,7 +11,7 @@ and nothing is calling it yet.
 | **Format** | 3840×2160 and 2160×3840, 24 fps, h264, yuv420p, bt709 |
 | **Voice** | Kokoro `af_bella` — local, free, no API · the series voice from this reel onward |
 | **Beats** | 7 · 6 deck scenes + sign-in · **no slates**, 7/7 filled |
-| **Presenter** | Chaitanya Malepati |
+| **Presenter** | Chaitanya M. |
 | **Series** | Medhavy research log |
 | **Built with** | [brutalist.art](https://github.com/nikbearbrown/brutalist.art), used read-only |
 | **Status** | Built · fact-checked · GATE P signed 2026-09-17 · **not published** |
@@ -198,7 +198,7 @@ remedy (grep a book repo, or ask Prarthana) is still the definitive test.
 memory-api-deck.html     the deck — this IS the visuals, not a mockup of them
 beat_sheet.json          every beat: narration, shot, motion, measured duration
 short/beat_sheet.json    the 9:16 cut, same 7 beats, nothing dropped
-mp3/timings.json         the measured clock the beats were cut to
+timings.json             the measured clock the beats were cut to
 script.md                the 2:50 filmed script (+ the alternate Scene 5)
 script-longform.md       the 7-8 min research version
 scenes/capture_deck.py   the deck renderer — deterministic, Chrome -> ffmpeg
