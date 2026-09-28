@@ -36,5 +36,5 @@ Visuals are the project's own deck rendered at native 4K in headless Chrome —
 not a re-implementation. Built with Brutalist, running locally and free.
 Narration voice: Kokoro af_bella.
 
-Presented by Chaitanya Malepati.
+Presented by Chaitanya M.
 #MedhavyHub #AI #EdTech #SoftwareArchitecture #APIDesign
