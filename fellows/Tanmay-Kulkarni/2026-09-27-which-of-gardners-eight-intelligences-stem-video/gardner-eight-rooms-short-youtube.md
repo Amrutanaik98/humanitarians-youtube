@@ -13,7 +13,7 @@ math in 1956, before the house was even built.
 The full video opens every door, including the 1983 inspection a room had to pass, the 2024 one that
 lit these six, and Gardner's own 2026 word for what happens next:
 Which of Gardner's Eight Intelligences Can a Machine Do? (5:46)
-[paste the full video's YouTube link here]
+https://drive.google.com/file/d/18oBFVkfVDDN8z4SXJoEduqzuTUQJVmAY/view?usp=drive_link
 
 Sources: Nik Bear Brown, "Introducing Theorist.ai" (Humanitarians AI, March 2026), the essay this
 starts from · Gardner, Furuzawa & Stachura, "Who Owns Intelligence? Reflections After a Quarter

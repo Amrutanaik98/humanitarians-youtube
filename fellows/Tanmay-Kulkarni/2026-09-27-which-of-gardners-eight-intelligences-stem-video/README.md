@@ -51,9 +51,9 @@ Drive links added 2026-09-28. Add the YouTube URL once each film is live.
 | Long (16:9, 4K) | [Drive](https://drive.google.com/file/d/18oBFVkfVDDN8z4SXJoEduqzuTUQJVmAY/view?usp=drive_link) | *(to add)* |
 | Short (9:16, 4K) | [Drive](https://drive.google.com/file/d/1rQQmz8awD92X9UZS06K2E43x3hcgJsLO/view?usp=drive_link) | *(to add)* |
 
-**One dependency.** The Short's description (`gardner-eight-rooms-short-youtube.md`) has a
-placeholder line, `[paste the full video's YouTube link here]`. Fill it once the long is live, and set
-the long as the Short's related video in YouTube Studio.
+**One dependency.** The Short's description (`gardner-eight-rooms-short-youtube.md`) points to
+the long's Drive link for now. Once the long is live, swap in its YouTube URL and set it as the
+Short's related video in YouTube Studio.
 
 ## Uploading: three choices only you can make
 
