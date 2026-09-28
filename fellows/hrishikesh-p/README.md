@@ -1,8 +1,8 @@
 # Hrishikesh P.
 
-**Role:** Software Engineer
-**Project:** Raman Effect
-**GitHub:** [@hspgit](https://github.com/hspgit)
+- **Role:** Software Engineer
+- **Project:** Raman Effect
+- **GitHub:** [@hspgit](https://github.com/hspgit)
 
 ## Weekly Work
 
