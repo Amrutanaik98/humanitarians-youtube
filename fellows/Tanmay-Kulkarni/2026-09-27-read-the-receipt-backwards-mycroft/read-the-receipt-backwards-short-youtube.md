@@ -15,7 +15,7 @@ The full video reads the whole receipt, line by line:
 Read the Receipt Backwards: Auditing an AI Agent's Purchase (4:31)
 https://drive.google.com/file/d/1PsuSUheQf3agC9CeCh2Je1zOBIXAFpxY/view?usp=drive_link
 
-The build (82 tests, plain Python, mock data only): [paste the repository link here]
+The build (82 tests, plain Python, mock data only): https://github.com/nikbearbrown/mycroft/tree/main/case-study-workflows/mastercard-agent-pay-workflow
 
 Sources: Mastercard, "How Verifiable Intent builds trust in agentic AI commerce" (March 5, 2026) ·
 Mastercard, agentic tokens in the Signals report release (August 2026). Full sourcing is in the full

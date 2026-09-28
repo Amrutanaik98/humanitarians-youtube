@@ -31,7 +31,7 @@ bottom to the top, and next to every line write down the step that checked it. F
 nothing next to it, add the check, or say on the record that it isn't verified.
 
 The build (82 tests, plain Python, no external services, runs on mock data):
-[paste the repository link here]
+https://github.com/nikbearbrown/mycroft/tree/main/case-study-workflows/mastercard-agent-pay-workflow
 
 Sources, in order of appearance:
 

@@ -50,12 +50,11 @@ Drive links added 2026-09-28. Add the YouTube URL once each film is live.
 |---|---|---|
 | Long (16:9, 4K) | [Drive](https://drive.google.com/file/d/1PsuSUheQf3agC9CeCh2Je1zOBIXAFpxY/view?usp=drive_link) | *(to add)* |
 | Short (9:16, 4K) | [Drive](https://drive.google.com/file/d/1qRm0VWpggINXR8-w34hlhB_sBN53qF6u/view?usp=drive_link) | *(to add)* |
-| Repository (the build) | — | *(to add)* |
+| Repository (the build) | [mycroft · mastercard-agent-pay-workflow](https://github.com/nikbearbrown/mycroft/tree/main/case-study-workflows/mastercard-agent-pay-workflow) (via PR #53) | — |
 
-**Placeholders to fill in the descriptions:**
-- `read-the-receipt-backwards-youtube.md`: `[paste the repository link here]`.
-- `read-the-receipt-backwards-short-youtube.md`: `[paste the repository link here]`. The full-video
-  line currently points to the long's Drive link. Once the long is live, swap in its YouTube URL and set
+**Links to update later:** both descriptions link the build in `nikbearbrown/mycroft` `main`, which
+resolves once PR [#53](https://github.com/nikbearbrown/mycroft/pull/53) is merged. In
+`read-the-receipt-backwards-short-youtube.md`, the full-video line currently points to the long's Drive link. Once the long is live, swap in its YouTube URL and set
   it as the Short's related video in YouTube Studio.
 
 ## Uploading: three choices only you can make
