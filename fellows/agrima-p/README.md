@@ -1,4 +1,8 @@
-# Agrima Parmar
+# Agrima P.
+
+**Role:** Social Media Marketing Manager  
+**Project:** _to be filled in_  
+**GitHub:** [@AGRIMAPARMAR4-SUDO](https://github.com/AGRIMAPARMAR4-SUDO)
 
 Fellow videos built with the Brutalist toolkit — AI-explainer and CLI-explainer
 reports.
@@ -29,4 +33,42 @@ an explicit, documented re-voice decision is made.
 - `2026-08-29-weekly-recap/` — This Week: What Shipped, What's Next. A
   CLI-explainer weekly recap built around a real weekly_recap_v1.py, revised
   into weekly_recap_v2.py to split DONE-THIS-WEEK from STARTING-NEXT-WEEK —
-  both scripts real, both actually run. 16:9 + 9:16 cuts.
+  both scripts real, both actually run. 16:9 + 9:16 cuts. Content: the AI
+  nonprofit marketing article + research, producing the accompanying video,
+  and a Suffolk University speaking engagement.
+- `2026-09-03-ai-nonprofit-marketing/` — The Nonprofit Marketing Problem AI Is
+  Quietly Solving. An AI-explainer sourced from a user-written article on AI
+  in nonprofit marketing (donor personalization, donation-form optimization,
+  fundraising ROI), built on the ai-explainer chassis. 16:9 + 9:16 cuts.
+- `2026-09-12-rescue-reinvented/` — Rescue, Reinvented: How Artificial
+  Intelligence Is Reshaping Rescue Work. An AI-explainer sourced from a
+  user-written article on AI in animal shelters (Finding Rover lost-pet
+  matching, AI-assisted notes-to-content, Doobert coordination), built on
+  the ai-explainer chassis. Presenter self-intro lives in its own dedicated
+  beat. 16:9 + 9:16 cuts.
+- `2026-09-12-weekly-recap-catbot/` — This Week: What Shipped, What's Next
+  (cat-bot edition). A CLI-explainer weekly recap — a separate week's log
+  from `2026-08-29-weekly-recap/` — built around a real weekly_recap_v1.py,
+  revised into weekly_recap_v2.py to split DONE-THIS-WEEK from
+  STARTING-NEXT-WEEK — both scripts real, both actually run. 16:9 + 9:16
+  cuts (9:16 is a full-parity reformat, no beats dropped). Content: publishing
+  the Rescue, Reinvented article, producing two Brutalist videos, and a new
+  "cat bot" project idea with early cat-shelter research.
+- `2026-09-19-no-face-no-problem/` — No Face, No Problem: Inside the Rise of
+  AI Accounts Nobody's Ever Seen — and Why We Might Trust Them Anyway. An
+  AI-explainer sourced from a user-written article on faceless AI content
+  accounts, built on the ai-explainer chassis. The hook beat (B01) is styled
+  as an abstract stock-footage/caption card rather than a composer card, per
+  an explicit request to perform the article's own subject; two of the
+  article's own hedged stats (creator-venture share, trust-over-personality)
+  are carried with on-screen skepticism flags, not presented as settled
+  fact. 16:9 + 9:16 cuts (9:16 drops 3 middle beats to fit the Shorts cap).
+
+## Frictional log
+
+Every work subfolder here carries its own `FRICTIONAL.md` — a dated record of the process
+behind that specific piece of work, kept beside the evidence it describes: what was tried
+and expected, where it resisted and what was done next, what Claude or another person
+contributed and what was accepted, changed or rejected, and what is now understood or
+still open. Append as you go; never rewrite an earlier entry. It is not graded and not a
+performance review. See <https://www.humanitarians.ai/fellows> for what an entry contains.

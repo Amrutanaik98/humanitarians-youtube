@@ -202,3 +202,193 @@ import {RcpCard916, RcpTeam916, RcpSplit916, RcpWeeks916, RcpStatus916} from './
 <Composition id="RcpStatus916" component={RcpStatus916}
         durationInFrames={404} fps={30} width={1080} height={1920}
         defaultProps={{data: {slideMeta: '', title: '', kicker: '', states: [{label: '', done: true}], note: ''}}} />
+
+
+// ============================================================================
+// Added 2026-09-03 — Nobody Wrote This. + This Week, Gordy.
+//
+// Two refusals below are enforced by the TYPES rather than by memory, and are the
+// reason these are separate components instead of reuses:
+//   * WkReview's `slots` carry a label and NOTHING else — no title, summary or
+//     content prop exists, because the two articles are in review and unpublished.
+//   * WkPipeline has no per-stage `state` field, so the framework beat cannot leak
+//     the status board that the following beat reveals.
+//   * LnkAllOrNothing has no remainder-bar prop: the human-written share was never
+//     published, and a bar length is a number.
+//   * LnkLadder takes an explicit `bar` number separate from the verbatim `value`
+//     string, because three values are ranges and the house num() helper misreads
+//     "4-13%" as 413.
+// ============================================================================
+
+import {LnkBluf, LnkFrame, LnkStat, LnkLadder, LnkDisproportion, LnkAllOrNothing, LnkContradiction, LnkFalsify, LnkPressure} from './scenes/NobodyWroteThis';
+import {WkBluf, WkPipeline, WkTool, WkStatus, WkShip, WkReview, WkNotClaiming} from './scenes/WeekGordy';
+import {WkBluf916, WkPipeline916, WkTool916, WkStatus916, WkShip916, WkReview916, WkNotClaiming916} from './scenes/WeekGordy916';
+import {LnkBluf916, LnkFrame916, LnkStat916, LnkLadder916, LnkDisproportion916, LnkAllOrNothing916, LnkContradiction916, LnkFalsify916, LnkPressure916} from './scenes/NobodyWroteThis916';
+
+<Composition id="WkBluf" component={WkBluf}
+        durationInFrames={326} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', lines: [{label: '', chip: ''}], closer: ''}}} />
+<Composition id="WkPipeline" component={WkPipeline}
+        durationInFrames={379} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', stages: [{label: '', sub: ''}], hotIndex: 0, note: ''}}} />
+<Composition id="WkTool" component={WkTool}
+        durationInFrames={444} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', name: '', quote: '', chips: [], audience: '', url: '', source: '', note: ''}}} />
+<Composition id="WkStatus" component={WkStatus}
+        durationInFrames={348} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', stages: [{label: '', detail: '', state: 'closed'}], tally: '', note: ''}}} />
+<Composition id="WkShip" component={WkShip}
+        durationInFrames={409} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', made: {label: '', sub: ''}, destination: {label: '', sub: ''}, chip: '', note: ''}}} />
+<Composition id="WkReview" component={WkReview}
+        durationInFrames={370} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', slots: [{label: ''}], withhold: '', stages: [{label: '', state: 'done'}], note: ''}}} />
+<Composition id="WkNotClaiming" component={WkNotClaiming}
+        durationInFrames={377} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', claiming: {heading: '', items: []}, notClaiming: {heading: '', items: []}, note: ''}}} />
+<Composition id="WkBluf916" component={WkBluf916}
+        durationInFrames={326} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', lines: [{label: '', chip: ''}], closer: ''}}} />
+<Composition id="WkPipeline916" component={WkPipeline916}
+        durationInFrames={379} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', stages: [{label: '', sub: ''}], hotIndex: 0, note: ''}}} />
+<Composition id="WkTool916" component={WkTool916}
+        durationInFrames={444} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', name: '', quote: '', chips: [], audience: '', url: '', source: '', note: ''}}} />
+<Composition id="WkStatus916" component={WkStatus916}
+        durationInFrames={348} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', stages: [{label: '', detail: '', state: 'closed'}], tally: '', note: ''}}} />
+<Composition id="WkShip916" component={WkShip916}
+        durationInFrames={409} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', made: {label: '', sub: ''}, destination: {label: '', sub: ''}, chip: '', note: ''}}} />
+<Composition id="WkReview916" component={WkReview916}
+        durationInFrames={370} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', slots: [{label: ''}], withhold: '', stages: [{label: '', state: 'done'}], note: ''}}} />
+<Composition id="WkNotClaiming916" component={WkNotClaiming916}
+        durationInFrames={377} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', claiming: {heading: '', items: []}, notClaiming: {heading: '', items: []}, note: ''}}} />
+<Composition id="LnkBluf" component={LnkBluf}
+        durationInFrames={314} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', lead: '', hot: '', struck: '', replacement: '', closer: ''}}} />
+<Composition id="LnkFrame" component={LnkFrame}
+        durationInFrames={366} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', bins: [{label: '', sub: ''}], hotIndex: 0, source: '', note: ''}}} />
+<Composition id="LnkStat" component={LnkStat}
+        durationInFrames={387} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', value: '0%', label: '', rank: '', source: '', note: ''}}} />
+<Composition id="LnkLadder" component={LnkLadder}
+        durationInFrames={435} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', items: [{label: '', value: '0%', bar: 0}], baseline: {bar: 0, label: ''}, source: '', note: ''}}} />
+<Composition id="LnkDisproportion" component={LnkDisproportion}
+        durationInFrames={323} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', top: {label: '', value: '', bar: 0}, bottom: {label: '', value: '', bar: 0}, source: '', note: ''}}} />
+<Composition id="LnkAllOrNothing" component={LnkAllOrNothing}
+        durationInFrames={332} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', assisted: {label: '', value: '', bar: 0}, generated: {label: '', value: '', bar: 0}, remainderLabel: '', source: '', note: ''}}} />
+<Composition id="LnkContradiction" component={LnkContradiction}
+        durationInFrames={372} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', left: {heading: '', label: '', sub: ''}, right: {heading: '', label: '', sub: ''}, collision: '', source: '', note: ''}}} />
+<Composition id="LnkFalsify" component={LnkFalsify}
+        durationInFrames={327} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', items: [{label: '', why: ''}], closer: ''}}} />
+<Composition id="LnkPressure" component={LnkPressure}
+        durationInFrames={370} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', left: {tag: '', label: '', sub: '', cite: ''}, right: {tag: '', label: '', sub: '', cite: ''}, marker: '', axisLabel: '', note: ''}}} />
+<Composition id="LnkBluf916" component={LnkBluf916}
+        durationInFrames={314} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', lead: '', hot: '', struck: '', replacement: '', closer: ''}}} />
+<Composition id="LnkFrame916" component={LnkFrame916}
+        durationInFrames={366} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', bins: [{label: '', sub: ''}], hotIndex: 0, source: '', note: ''}}} />
+<Composition id="LnkStat916" component={LnkStat916}
+        durationInFrames={387} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', value: '0%', label: '', rank: '', source: '', note: ''}}} />
+<Composition id="LnkLadder916" component={LnkLadder916}
+        durationInFrames={435} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', items: [{label: '', value: '0%', bar: 0}], baseline: {bar: 0, label: ''}, source: '', note: ''}}} />
+<Composition id="LnkDisproportion916" component={LnkDisproportion916}
+        durationInFrames={323} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', top: {label: '', value: '', bar: 0}, bottom: {label: '', value: '', bar: 0}, source: '', note: ''}}} />
+<Composition id="LnkAllOrNothing916" component={LnkAllOrNothing916}
+        durationInFrames={332} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', assisted: {label: '', value: '', bar: 0}, generated: {label: '', value: '', bar: 0}, remainderLabel: '', source: '', note: ''}}} />
+<Composition id="LnkContradiction916" component={LnkContradiction916}
+        durationInFrames={372} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', left: {heading: '', label: '', sub: ''}, right: {heading: '', label: '', sub: ''}, collision: '', source: '', note: ''}}} />
+<Composition id="LnkFalsify916" component={LnkFalsify916}
+        durationInFrames={327} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', items: [{label: '', why: ''}], closer: ''}}} />
+<Composition id="LnkPressure916" component={LnkPressure916}
+        durationInFrames={370} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', left: {tag: '', label: '', sub: '', cite: ''}, right: {tag: '', label: '', sub: '', cite: ''}, marker: '', axisLabel: '', note: ''}}} />
+
+
+// ============================================================================
+// Added 2026-09-07 — Interest Media.
+//
+// Two refusals below are enforced by the TYPES rather than by memory, and are the
+// reason these are new components instead of reuses:
+//   * ItmSource has a `claimParaphrase` field and NO `quote` field. The "interest
+//     media" framing is credited to Gary Vaynerchuk and the instruction was to
+//     paraphrase him, never to quote him — so there is no prop to quote him with.
+//   * NOTHING in this family carries a numeric prop. No value, pct, count, bar or
+//     stat exists on any type here, so this reel cannot print a statistic. That
+//     matters most on ItmVolume, whose subject IS volume: its marks are unlabelled
+//     and uncounted, and it argues density rather than a figure.
+//
+// MARKS and TICKS are exported from InterestMedia.tsx and IMPORTED by the portrait
+// module rather than redeclared, so the two cuts of one reel cannot drift apart on
+// how dense "too much" looks.
+// ============================================================================
+
+import {ItmBluf, ItmSource, ItmFeed, ItmVolume, ItmQuestion, ItmModels, ItmJob, ItmLimits} from './scenes/InterestMedia';
+import {ItmBluf916, ItmSource916, ItmFeed916, ItmVolume916, ItmQuestion916, ItmModels916, ItmJob916, ItmLimits916} from './scenes/InterestMedia916';
+
+<Composition id="ItmBluf" component={ItmBluf}
+        durationInFrames={314} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', claims: [{label: ''}], hotIndex: 0, closer: ''}}} />
+<Composition id="ItmSource" component={ItmSource}
+        durationInFrames={493} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', who: '', claimParaphrase: '', stamp: '', oldWord: '', newWord: '', tail: '', oldAsks: '', newAsks: '', note: ''}}} />
+<Composition id="ItmFeed" component={ItmFeed}
+        durationInFrames={426} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', leftHead: '', leftItems: [], leftFoot: '', rightHead: '', rightItems: [], rightFoot: '', signals: [], note: ''}}} />
+<Composition id="ItmVolume" component={ItmVolume}
+        durationInFrames={309} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', networkLabel: '', networkSub: '', verdictBand: '', note: ''}}} />
+<Composition id="ItmQuestion" component={ItmQuestion}
+        durationInFrames={210} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', inputLabel: '', outputLabel: '', oldKey: '', newKey: '', note: ''}}} />
+<Composition id="ItmModels" component={ItmModels}
+        durationInFrames={408} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', oldTitle: '', oldSteps: ['', '', ''], oldGateLabel: '', oldFoot: '', newTitle: '', newSteps: ['', '', ''], newFoot: '', note: ''}}} />
+<Composition id="ItmJob" component={ItmJob}
+        durationInFrames={282} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', oldHead: '', oldQuestion: '', newHead: '', newQuestion: '', tickLabel: '', note: ''}}} />
+<Composition id="ItmLimits" component={ItmLimits}
+        durationInFrames={372} fps={30} width={1920} height={1080}
+        defaultProps={{data: {slideMeta: '', title: '', claims: {heading: '', items: []}, refusals: {heading: '', items: []}, provenance: '', falsifier: ''}}} />
+<Composition id="ItmBluf916" component={ItmBluf916}
+        durationInFrames={314} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', claims: [{label: ''}], hotIndex: 0, closer: ''}}} />
+<Composition id="ItmSource916" component={ItmSource916}
+        durationInFrames={493} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', who: '', claimParaphrase: '', stamp: '', oldWord: '', newWord: '', tail: '', oldAsks: '', newAsks: '', note: ''}}} />
+<Composition id="ItmFeed916" component={ItmFeed916}
+        durationInFrames={426} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', leftHead: '', leftItems: [], leftFoot: '', rightHead: '', rightItems: [], rightFoot: '', signals: [], note: ''}}} />
+<Composition id="ItmVolume916" component={ItmVolume916}
+        durationInFrames={309} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', networkLabel: '', networkSub: '', verdictBand: '', note: ''}}} />
+<Composition id="ItmQuestion916" component={ItmQuestion916}
+        durationInFrames={210} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', inputLabel: '', outputLabel: '', oldKey: '', newKey: '', note: ''}}} />
+<Composition id="ItmModels916" component={ItmModels916}
+        durationInFrames={408} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', oldTitle: '', oldSteps: ['', '', ''], oldGateLabel: '', oldFoot: '', newTitle: '', newSteps: ['', '', ''], newFoot: '', note: ''}}} />
+<Composition id="ItmJob916" component={ItmJob916}
+        durationInFrames={282} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', oldHead: '', oldQuestion: '', newHead: '', newQuestion: '', tickLabel: '', note: ''}}} />
+<Composition id="ItmLimits916" component={ItmLimits916}
+        durationInFrames={372} fps={30} width={1080} height={1920}
+        defaultProps={{data: {slideMeta: '', title: '', claims: {heading: '', items: []}, refusals: {heading: '', items: []}, provenance: '', falsifier: ''}}} />

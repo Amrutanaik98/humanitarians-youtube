@@ -51,27 +51,45 @@ name doesn't carry a date, the video filename does.
 - **Both 16:9 and 9:16.** Every video — including anything that's
   conceptually a "Short" — must be rendered in **both** aspect ratios.
   Build the 16:9 master first (the whole pipeline in `agents.md` targets
-  16:9 by default), QC it, then derive the portrait cut:
+  16:9 by default), QC it, then derive the portrait companion:
 
   ```bash
-  ./art shorts <reel>        # derives the 9:16 cut, caps text, auto-shortens
+  ./art vertical <reel>      # required weekly companion: full report, no cap, no endcard
+  ./art shorts <reel>        # OPTIONAL separate derivative: can cut beats, caps duration
   ```
+
+  **`vertical` and `shorts` are not the same artifact.** Per
+  `brutalist.art/docs/PIPELINE-SAFETY.md`: the required full-length 9:16
+  companion is `./art vertical` — it keeps every beat and the full report,
+  applies no Short duration cap, and adds no endcard. `./art shorts` is a
+  *separate*, optionally-produced derivative that can plan cuts to ordinary
+  middle beats to hit a Shorts-length target, but still cannot silently drop
+  a supplied source report to meet that cap. Don't ship a `shorts` cut as if
+  it satisfies the weekly vertical-companion requirement — it's a different
+  video with a different duration budget.
 
   **The 9:16 variant has sharply tighter text limits** — `agents.md`'s
   "9:16 portrait" table shows `topic` dropping from ~125 to ~45 chars,
   `greeting` from ~55 to ~21, etc. Copy that fits the 16:9 canvas will not
   automatically fit portrait. Run `./art check` against the **derived**
-  short's sheet, not just the source reel, and re-QC the 9:16 render
+  vertical/short's sheet, not just the source reel, and re-QC that render
   separately — it is a different composition (`*916` pattern variants),
   not just the same footage cropped.
 - **Exactly two final video files per reel, no more.** One 4K 16:9 master
-  and one 9:16 shorts derivation — that's the complete deliverable set.
-  Don't leave an unsubtitled master and a separately-named `_subtitled`
+  and one 9:16 vertical/shorts derivation — that's the complete deliverable
+  set. Don't leave an unsubtitled master and a separately-named `_subtitled`
   copy both sitting in the folder as if either were a final output; mux
   captions directly into the one file that ships. Anything else produced
   along the way (fast 1080p preview cuts, intermediate Manim/Remotion
   clips) is scratch, not a deliverable — clean it up per §5/§9 of
   `BUILD-PROMPT.md`, don't ship it alongside the two real files.
+  **Stop producing the dated `<slug>_DivijPawar_<date>.mp4` duplicate** —
+  every reel from STEM4 onward has shipped this as a byte-identical copy
+  of `<slug>.mp4`, apparently to satisfy Drive naming. It doesn't: §8's
+  Drive convention (from `FELLOWS-SUBMISSION.md`) is explicitly *undated*
+  — `ProjectName_VolunteerName.mp4`, no dates, no `v2`/`final`. The dated
+  copy is both an undocumented extra file and a violation of the actual
+  naming rule. Rename in place for Drive upload; don't keep both.
 - **Captions are soft-encoded on both final files, never burned in.** Mux
   as a real `mov_text` subtitle stream (see §5 step 9) into both the 16:9
   master and the 9:16 derivation — a viewer with subtitles off should see
@@ -107,19 +125,28 @@ STEM1–STEM4:
                                  mov_text captions already muxed in. This is
                                  the only 16:9 file that ships — no separate
                                  unsubtitled copy, no separate `_subtitled`
-                                 copy; caption-muxing happens in place.
-  <slug>_shorts.mp4             FINAL deliverable #2 — 9:16 derivation from
-                                 `./art shorts`, same soft-caption
-                                 requirement, muxed in place the same way.
+                                 copy, no dated duplicate (see §2); caption-
+                                 muxing happens in place.
   captions.srt                  16:9 caption source (feeds the mux step;
                                  not itself a delivered format)
+  short/                        full PARALLEL pipeline for the 9:16 cut, not
+                                 just a derived file — its own beat_sheet.json,
+                                 scenes.py, graphics_lib.py, manim/, media/,
+                                 mp3/, clips/, captions.srt, all scoped to
+                                 the short's own (possibly trimmed) beat set
+  short/<slug>-short.mp4        FINAL deliverable #2 — 9:16 derivation,
+                                 hyphenated singular `-short` suffix (not
+                                 `_shorts`), same soft-caption requirement,
+                                 muxed in place the same way, no dated
+                                 duplicate
 ```
 
-Exactly two video files ship per reel: `<slug>.mp4` and `<slug>_shorts.mp4`,
-both already carrying soft-encoded captions. If a step's output doesn't
-match this, something upstream was skipped — don't paper over it (e.g.
-don't hand-splice a clip, don't fake a manifest hash, don't leave an extra
-unsubtitled or `_subtitled`-suffixed file behind as a stray deliverable).
+Exactly two video files ship per reel: `<slug>.mp4` and
+`short/<slug>-short.mp4`, both already carrying soft-encoded captions. If a
+step's output doesn't match this, something upstream was skipped — don't
+paper over it (e.g. don't hand-splice a clip, don't fake a manifest hash,
+don't leave an extra unsubtitled, `_subtitled`-suffixed, or dated file
+behind as a stray deliverable).
 
 ---
 
@@ -131,6 +158,19 @@ Kokoro is free, so this isn't a cost gate — once audio exists, its duration
 becomes the master clock for every downstream render, so the gate exists to
 catch teaching-arc and factual problems *before* that time gets spent.
 
+**A second, separate gate now covers voice choice and any Professor Bear
+notes beat** (`brutalist.art/docs/PIPELINE-SAFETY.md`). Declare exactly one
+persistent Kokoro voice in `metadata.voice`/`metadata.voice_kokoro` — no
+inferring approval from a suggested voice or file existence. Run
+`./art approvals /path/to/reel --fingerprints` to print the review subjects
+(this is not itself an approval), then record real sign-offs in
+`metadata.approvals` with `status`, reviewer name, an ISO timestamp, and the
+exact fingerprint reviewed — start those records `"pending"`, never invent a
+signature. Pending, missing, or stale approval records block Kokoro
+generation, Remotion rendering, review assembly, and final export outright;
+`--no-gate` cannot bypass it, and changing the voice or notes text
+invalidates the prior approval.
+
 **A script that only walks through one case study is not enough.** If a
 review pass calls a script "thin," the fix is to add genuinely
 **transferable** frameworks — a decision test the viewer can apply to their
@@ -139,16 +179,26 @@ mechanism being shown — not to pad the existing walkthrough. Give the
 falsifiability beat its own moment: show where the approach breaks or gets
 misused, not just where it works.
 
-**Verify claims about any real external project against the live source.**
-If a script describes a real system (a GitHub repo, a paper, a product),
-fetch it — README, docs, actual numbers — before finalizing. Specific
-figures, scope claims, and mechanism descriptions that can't be found in
-the real source get corrected or dropped, not carried as fact because they
-sounded plausible. Log corrections and citations in `SOURCES.md` (DOUBLE-CHECK
-LAW). When a real, permissively-licensed asset exists (a project's own
-documentation photo, a real diagram), prefer it over a generic drawn
-stand-in — it's a stronger nopunt HOLD than an invented illustration, as
-long as it's attributed.
+**Verify claims about any real external project against the live source —
+but know which series that applies to.** STEM-series videos are conceptual
+explainers, not project accounts: they do **not** need to match Divij's
+real codebase, and should be fact-checked against general/standard
+practice, not gated on whether a specific repo implements what's being
+explained. **Mycroft weekly work-recap videos are different** — they
+describe real, current work, so their claims must check against the actual
+code at `D:\Code\mycroft\verification-layer`. Do **not** check either
+series against `C:\Users\divij\Desktop\mycroft\accountability_layer` — that
+is an older/draft location with similarly-named modules (`claims.py`,
+`verification.py`, `consistency.py`) that caused a mis-fact-check on STEM6
+when it was checked against by mistake. For any other real system named in
+a script (a GitHub repo, a paper, a product), fetch it — README, docs,
+actual numbers — before finalizing. Specific figures, scope claims, and
+mechanism descriptions that can't be found in the real source get corrected
+or dropped, not carried as fact because they sounded plausible. Log
+corrections and citations in `SOURCES.md` (DOUBLE-CHECK LAW). When a real,
+permissively-licensed asset exists (a project's own documentation photo, a
+real diagram), prefer it over a generic drawn stand-in — it's a stronger
+nopunt HOLD than an invented illustration, as long as it's attributed.
 
 **No PUNT costumes.** Per nopunt: a generic stock image or icon standing in
 for a concept is a PUNT. Either it's a genuine archival photo/screenshot of
@@ -156,9 +206,74 @@ the real thing being discussed (a legitimate HOLD), or it's a diagram that
 actually enacts the sentence in motion (a SHOW). "A stock photo of a
 handshake" is neither.
 
+**Run the example instead of shopping for a picture of it.** Per
+`brutalist.art/docs/EXECUTABLE-EVIDENCE.md` (mandatory, not optional): for
+code, arithmetic, tables or toy examples, run the local code/data, preserve
+the exact code/environment/seed/stdout/stderr, and render the real result —
+don't fabricate a screenshot, terminal photo, or invented output. Reserve
+pantry for genuinely irreplaceable source evidence (an actual historical
+photo, document, or external recording), not as a shortcut for something
+that could be computed and shown.
+
+**Math gets typeset, not narrated in prose.** Per
+`brutalist.art/docs/MATH-TYPESETTING.md` (mandatory for every film,
+including Mycroft/STEM): any equation or derivation uses a structured
+renderer (MathTex/KaTeX/MathJax/etc.) with real fraction bars, subscripts,
+and sized delimiters — never raw TeX or ambiguous `a / b * c` strings in a
+text card. Verify the algebra itself (signs, indices, domains, at least one
+reproducible numerical case) separately from the typography, and inspect
+the actual equation frames at 15/50/85% of the beat in the shipped aspect
+ratio before calling it done.
+
+**Write `narration_text` for Kokoro's punctuation weighting, not just for
+reading.** Kokoro (`generate_audio_kokoro.py`) has no SSML/break-tag
+support — it synthesizes raw text and lets the model's own prosody decide
+pause length per punctuation mark, and that weighting is flat: a comma
+gets barely less pause than a period, so a long compound sentence reads as
+a rushed run-on with no real breath. Two concrete rules for every
+`narration_text` string in `beat_sheet.json`:
+
+- **One clause per sentence, terminated with a real period.** Don't join
+  two complete thoughts with a comma or a semicolon hoping for a natural
+  breath — split them into two short sentences. Periods are the only
+  punctuation mark that reliably buys a real pause from this model.
+- **Never rely on an em dash (`—`) for a dramatic beat.**
+  `generate_audio_kokoro.py`'s `normalize_for_tts()` silently rewrites every
+  em dash to a plain comma (`", "`) before synthesis — a script that reads
+  "the model failed the test — twice" for a hard stop will be *heard* as a
+  throwaway comma pause. If the beat needs a genuine dramatic pause, write
+  it as two sentences, or use an ellipsis (`...`) for a held beat — don't
+  spend an em dash on pacing, it does not survive to the audio.
+
+Check this by ear, not just by reading the beat sheet: listen to the
+rendered `mp3/beat-<ID>.mp3` for any beat with a compound sentence or a
+dash before treating that beat's audio as final — a script that scans fine
+on the page can still come out of Kokoro as a rushed, poorly-enunciated
+run.
+
+**If a beat still comes out slurred after the text fixes above, try
+`--speed 0.92`–`0.95` on just that beat** (`generate_audio_kokoro.py
+<reel> --only <BID> --speed 0.94`) before rewriting it again. A slightly
+slower rate gives the model more time per phoneme to articulate consonant
+clusters instead of running them together — cheap to test since Kokoro is
+free and regeneration costs nothing but time. Don't apply a global
+`--speed` across the whole reel for one bad beat: a reel-wide slowdown
+throws off every other beat's already-tuned Manim retiming (§5 step 4).
+
 **One idea per beat**, framework stated before the worked example that uses
 it, and every claim-bearing beat carries its own on-screen artifact — no
 beat should be a headline read over a static paragraph (the PPT test).
+
+**Cut the "it's not X, it's Y" AI-speak contrastive tic.** This construction
+(and cousins like "here's precisely why," "worth sitting with," "this
+sounds obvious, it isn't") recurred on both STEM6's and STEM7's drafts from
+the source-drafting pipeline at
+`C:\Users\divij\Desktop\mycroft\accountability_layer\youtube\` — it's a
+systemic pattern in that pipeline's output, not a one-off. Proactively scan
+narration for it when authoring `0N_<slug>.md` / `0N_narration_tts_ready.txt`
+from that source, even when not explicitly flagged, and vary sentence
+rhythm instead (a direct statement, a rhetorical question, a dash) without
+changing meaning or facts.
 
 ---
 
@@ -209,6 +324,15 @@ succeeding):
   EB Garamond lightly tightened, PT Mono left alone to preserve column
   alignment) — this is already fixed at the source, don't re-derive it or
   bypass `label()`/`title()` with a raw `Text()` call for body copy.
+- **`./art shorts`'s auto-drop plan ("cheapest beats under the cap") ships
+  incoherent cuts by default.** It has produced a short that opens
+  mid-mechanism with a dangling reference to a beat it just cut, on STEM5,
+  STEM6, and STEM7 in a row — each reel's own `BUILD-PROMPT.md` just noted
+  "same failure STEM<n-1> flagged" and manually overrode it with
+  `--drop`/`--keep` to rebuild a self-contained arc (cold open + one
+  fully-illustrated beat + verdict + task + outro). Check the auto-drop
+  plan before accepting it, every time — don't wait to discover it fresh
+  per reel.
 
 ---
 
@@ -287,11 +411,110 @@ a redundant re-derivation. Where PROOF adds something new: the binary
 production gate (legibility/sourcing/side-by-side, all frame-specific,
 independent of teaching quality) and the numeric ship threshold.
 
-Log the self-review itself (even briefly) — e.g. `_qc/PROOF-REVIEW.md` —
-scored against the rubric and gate above, with the ship verdict. Treat it
-as an additional gate alongside GATE P (§4) and the visual QC pass (§6) —
-it doesn't replace either; a video can pass GATE P and still fail here on
+Log the self-review itself (even briefly) — **at the reel root, e.g.
+`PROOF-REVIEW.md` next to `CHECKS-REPORT.md`, never under `_qc/`** — scored
+against the rubric and gate above, with the ship verdict. `_qc/` is deleted
+by `BUILD-PROMPT.md`'s own cleanup step (`rm -rf "$REEL/_qc" ...`); logging
+there means the record doesn't survive the pipeline that's supposed to
+produce it — only STEM5 has a surviving `PROOF-REVIEW.md` out of every reel
+built so far, and every later one lost it to cleanup. Treat this log as an
+additional gate alongside GATE P (§4) and the visual QC pass (§6) — it
+doesn't replace either; a video can pass GATE P and still fail here on
 legibility or an empty-center framework.
+
+---
+
+## 8. Weekly handoff — GitHub for source, Drive for media
+
+Per `brutalist.art/docs/FELLOWS-SUBMISSION.md`, this channel's build output
+and the actual weekly submission are two different things — building the
+two files in §3 is not itself the handoff.
+
+- **Every video opens with the required line**: "Hi, I am [name] and this
+  video is about [topic]." Keep it even under a branded bookend. Disclose
+  AI narration and whose work is presented — never let an AI voice pass as
+  a recording of you or Professor Brown.
+- **GitHub gets source only, under 25 MB per file**: beat sheet, script,
+  README, `scenes.py`, checks, prompts. Never drag `mp3/`, `manim/`,
+  `media/`, `clips/`, or the rendered `.mp4`s into the repo — prepare a
+  source-only folder first.
+- **Drive gets every rendered file**, even small ones: both final `.mp4`s,
+  named `ProjectName_VolunteerName.mp4` (no dates, no `v2`/`final`) with
+  landscape and vertical in separate folders so same-named files don't
+  overwrite each other. Record each exported file's SHA-256 and source
+  commit so a reviewed export can be matched back to its recipe.
+- **Browser-only upload**: branch off `main` (named for you), upload the
+  source-only folder under `fellows/`, commit with a real message, open a
+  PR (`base: main` ← your branch) linking both the source and Drive folder,
+  then notify your PM with both URLs. Merging into `main` is a maintainer
+  decision, not implied by pushing your branch.
+- **README template** (per file, at the reel root pushed to GitHub): this
+  week's contribution, human vs. AI work breakdown, what was rejected or
+  unverified, Brutalist version/commit used, both Drive links + SHA-256,
+  and PM/publication status left as `pending` — never invented sign-offs.
+- **PM review covers six gates** before it moves to the Q playlist: current
+  format followed, native 4K verified (including the post-upload YouTube 4K
+  playback check — not provable locally), both aspect ratios present,
+  legible on desktop and mobile, the required intro line present, and a
+  specific viewer takeaway. Queue placement is not final publish approval —
+  that's Professors Brown and Nina's call.
+
+---
+
+## 9. Opening beat and last-3-beats template
+
+Every reel in this channel — STEM and Mycroft alike — shares one opening
+template and a common "keep the true final beat simple" rule, verified
+against `brutalist.art/skills/make/ai-explainer/SKILL.md`,
+`brutalist.art/skills/make/fellows/SKILL.md`, and the actual `beat_sheet.json`
+of STEM7 and Mycroft7. The two series diverge in the beat immediately before
+the outro — don't copy one series' closer onto the other.
+
+**Opening — B00, identical shape both series (COLD OPEN LAW):** a single
+`ClaudeComposerAsk` Remotion beat, `act: "cold open"`. Props: `command` (the
+question the whole video answers), `topic` (short caps label), `segment`
+(the episode title), `greeting` (a world-language hello + name, e.g. "Olá,
+Divij" / "Hola, Divij" — rotate the language per episode, never `"Hello,
+Divij"` every time), `runningText` (a short present-participle status line),
+`output` (2–3 resolved lines, the *last* of which is the hook the whole
+video pays off — don't bury the hook in line 1), plus the fixed
+`folderLabel`/`modelLabel`/`effortLabel` chip. This is the reel's title
+card and its thesis-in-miniature; it is never a custom Manim animation.
+
+**STEM series — last 3 beats:**
+1. **Verdict** (`ClaudeVerdictArtifact`, `act: "verdict"`) — `artifactTitle`
+   "Summary", `artifactHeading` (the one-sentence takeaway), `artifactLines`
+   (3–4 bullets synthesizing the episode, not a beat-by-beat recap).
+2. **Your Turn** (`ClaudeComposerAsk`, `act: "your turn"`) — same pattern as
+   the cold open but `greeting: "Your turn."`; `command`/`output` form a
+   scaffolded task the viewer can actually run (never a vague "ask Claude").
+3. **Outro** (`ClaudeTitleOutro`, `act: "outro"`) — `title` (exact episode
+   title restate), `handle` (`@DivijPawar`), `subline` (one short imperative
+   sentence). No stats, no bullets — the verdict beat already carried them.
+
+**Mycroft weekly-recap series — last 3 beats (OUTRO-LAW convention,
+confirmed across Mycroft6/Mycroft7 precedent):**
+1. **Chapter close / honest ledger** (Manim, e.g. `act: "chapter 5b..."`) —
+   the "still not true" / open-items beat: what's still unresolved, held on
+   screen uncleared, never softened into a win.
+2. **Close — the dense end-card reprise** (Manim, `act: "close - ..."`) —
+   this is where the payoff density lives: reprises the cold open's own
+   hook card exactly, then 5–7 END CARD bullets synthesizing the whole
+   episode's real numbers/claims. This beat carries the stats; the true
+   final beat deliberately does not.
+3. **Outro** (`ClaudeTitleOutro`, `act: "outro"`) — same shape as STEM's:
+   title restate, handle, subline, **kept free of stats on purpose** since
+   the previous Manim beat already carried the dense content. Mycroft
+   reels do **not** get a "Your Turn" beat — that's a STEM-series-only beat
+   (the `fellows`/Mycroft skeleton has no handoff-task slot at this
+   position).
+
+**The shared rule, regardless of series:** the true final Remotion beat
+(`ClaudeTitleOutro`) is always the simplest beat in the reel — title,
+handle, one line. Whatever beat sits second-to-last (verdict artifact for
+STEM, end-card reprise for Mycroft) is where the dense synthesis actually
+lives. Don't invert this by cramming stats into the outro card or leaving
+the second-to-last beat thin.
 
 ---
 
@@ -307,3 +530,14 @@ legibility or an empty-center framework.
 - `brutalist.art/tips.txt` — hard-won specifics (font registration, glyph
   gaps, box auto-sizing, frame-bounds gotchas) from building the first
   reels in this channel.
+- `brutalist.art/docs/FELLOWS-SUBMISSION.md` — the actual weekly handoff:
+  GitHub/Drive split, README template, PM review gates (§8).
+- `brutalist.art/docs/PIPELINE-SAFETY.md` — the `vertical`/`shorts`
+  distinction (§2), report-audio preservation, and the voice/notes approval
+  gate (§4).
+- `brutalist.art/docs/MATH-TYPESETTING.md` and
+  `brutalist.art/docs/EXECUTABLE-EVIDENCE.md` — mandatory rules for any
+  math or code-output beat (§4).
+- `brutalist.art/skills/make/ai-explainer/SKILL.md` and
+  `brutalist.art/skills/make/fellows/SKILL.md` — the source doctrine for
+  the opening/closing beat template in §9.

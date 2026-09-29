@@ -38,5 +38,5 @@ were read from.
 Built with Brutalist — Kokoro TTS and Python, running locally and free.
 Narration voice: Kokoro am_onyx. No music bed, by design.
 
-Presented by Chaitanya Malepati.
+Presented by Chaitanya M.
 #ConceptMap #KnowledgeGraph #EdTech #AI #SoftwareAudit
