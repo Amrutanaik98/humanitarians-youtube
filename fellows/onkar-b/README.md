@@ -1,7 +1,7 @@
 # Onkar B.
 
 **Role:** AI Software Engineer  
-**Project:** _to be filled in_  
+**Project:** mycroft
 **GitHub:** [@Onkar97](https://github.com/Onkar97)
 
 ## What's in this folder
