@@ -1,4 +1,4 @@
-# SurveyMind Response Pattern Realism Study — Renewal Request
+# SurveyMind Response Pattern Realism Study (Madison) — Renewal Request
 
 **Request:** I'm requesting a fellowship renewal from October 1, 2026 through November 30, 2027. My current agreement ends September 30, 2026, and this summary covers the period from August 25 to September 30, 2026.
 
