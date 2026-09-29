@@ -1,9 +1,9 @@
 # Sanjana R.
 
-**Role:** YouTube Content Project Manager
-**Project:** Fellows YouTube pipeline, content review and video essays
-**Group:** Brutalist team
-**GitHub:** [@SanjanaGRao](https://github.com/SanjanaGRao)
+**Role:** YouTube Content Project Manager  
+**Project:** Fellows YouTube pipeline, content review and video essays  
+**Group:** Brutalist team  
+**GitHub:** [@SanjanaGRao](https://github.com/SanjanaGRao)  
 **Last updated:** 2026-09-29
 
 ## Quick Review
