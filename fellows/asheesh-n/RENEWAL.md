@@ -18,7 +18,8 @@
 
 **Degree relevance and supervision:**
 This work directly applies my MS in Data Science & Analytics Engineering — correlation analysis, distribution testing, and model validation — to an unresolved research question (whether AI-generated survey data structurally replicates real human data), and builds on my prior published research benchmarking model performance against real-world baselines (IJCAI 2025).
-Supervisor: Komal Ganapathy (Madison).
+
+**Supervisor:** Komal Ganapathy (Madison).
 
 **Authorization:** F-1 OPT, EAD dates August 3, 2026 – July 8, 2027. Current volunteer agreement dates: August 25, 2026 – September 30, 2026.
 
