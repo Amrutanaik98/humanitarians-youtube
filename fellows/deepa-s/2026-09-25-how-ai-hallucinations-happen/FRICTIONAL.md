@@ -11,3 +11,7 @@ The approved narration is recorded as unchanged. `STATUS.md` and `QC-REPORT.md` 
 
 ## Evidence used
 `BUILD-LOG.md`, `QC-REPORT.md`, `CHECKS-REPORT.md`, `STATUS.md`, `ToDo.md`, `TYPECHECK.md`, `MASTERCHECK.md`, `_qc/REPORT.md`, `vertical/_qc/REPORT.md`, `beat_sheet.json`, `vertical/beat_sheet.json`, `src/DeepaHallucinations.tsx`.
+
+## Status clarification — recorded 2026-09-29
+
+Deepa later watched and approved both complete cuts. The nonblocking automated safe-margin and end-card exceptions described above remain documented qualifications; human approval does not turn them into automated passes. This later approval supersedes the historical pending-review status without altering the earlier QC reports. Its exact watch-through date is not independently recorded here. No manager approval is inferred.

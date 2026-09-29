@@ -11,3 +11,7 @@ Narration approval is recorded in the build/check records. `STATUS.md` leaves th
 
 ## Evidence used
 `evidence/USER-ACCOUNT.md`, `BUILD-LOG.md`, `CHECKS-REPORT.md`, `STATUS.md`, `ToDo.md`, `AUDIO-REVIEW.md`, `beat_sheet.json`, `vertical/beat_sheet.json`, `src/DeepaWeek2Setup.tsx`.
+
+## Status clarification — recorded 2026-09-29
+
+Deepa later watched and approved both complete cuts. This supersedes the earlier pending watch-cut state, while leaving that historical status and the recorded machine-QC results intact. The exact date of the later watch-through is not independently recorded here. No manager approval is inferred.

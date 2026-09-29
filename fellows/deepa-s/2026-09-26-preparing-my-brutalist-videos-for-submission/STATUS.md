@@ -1,5 +1,9 @@
 # Status
 
+## Human-review reconciliation — recorded 2026-09-29
+
+Deepa watched and approved both complete cuts. The local package and final audit were subsequently completed; the “submission packaging and final audit” stage below is an earlier project-status snapshot. The pending heading in `AUDIO-REVIEW.md` and unchecked `ToDo.md` item are preserved as earlier workflow records, not current approval state. No upload/publication is claimed. No individual video approval by Sanjana R. or Professor B. is claimed.
+
 Current stage: human watch-the-cut approved; submission packaging and final audit.
 
 - 16:9 landscape review cut: **HUMAN APPROVED** — 3840×2160, 143.851 seconds.

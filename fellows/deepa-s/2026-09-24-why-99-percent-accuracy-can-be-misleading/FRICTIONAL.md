@@ -13,3 +13,7 @@ The automated records are not fully aligned: `_qc/REPORT.md` reports sampled vis
 
 ## Evidence used
 `BUILD-LOG.md`, `BUILD-PROMPT.md`, `AUDIO-REVIEW.md`, `CHECKS-REPORT.md`, `TYPECHECK.md`, `_qc/REPORT.md`, `vertical/_qc/REPORT.md`, `beat_sheet.json`, `vertical/beat_sheet.json`, `src/DeepaAccuracy.tsx`.
+
+## Status clarification — recorded 2026-09-29
+
+Deepa's later review handoff confirms approval of both corrected cuts. The corrections addressed the visible debug/footer text, instructional narration-credit overlay, and portrait opening/title overlap across the two versions. The accepted minimum-text-size lint exception remains an exception; the corrected cuts were reported with zero overlap and zero overflow. Earlier QC reports remain historical and are not rewritten as post-correction results. The date of the later human watch-through is not independently recorded here. No manager approval is inferred.

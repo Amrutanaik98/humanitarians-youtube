@@ -1,17 +1,19 @@
-# How RAG Gives AI Access to External Knowledge — Deepa Shenoy
+# How RAG Gives AI Access to External Knowledge
 
-Content #5 — STEM / AI Educational Video, Week 3. Beginner-friendly explanation of Retrieval-Augmented Generation using a clearly fictional company remote-work policy example.
+**Creator:** Deepa S. · **Work period:** Week 3 of the August 25–September 30, 2026 agreement period · **Project/team:** Brutalist Videos, Sanjana R.'s team · **Type:** AI educational explainer
 
-Narrator: Liam, Kokoro `am_onyx`, reused from Deepa’s approved HAI voice setup. The exact user-supplied opening is retained; the established HAI title-restating outro is planned.
+## Work and result
 
-The video explains: a language model uses learned parameters and supplied context; retrieval happens before generation; selected external content is added to the model context; the model is not retrained for each question; RAG may improve grounding but cannot guarantee correctness. Source and retrieval quality matter.
+I produced a beginner-friendly explainer of retrieval-augmented generation, using a fictional company remote-work-policy question to show retrieval, added context, and answer generation. The project draws on the original RAG paper and authoritative technical documentation; claims and limitations are mapped in the project fact-check files. The landscape and portrait versions use separate compositions. I watched and approved both cuts.
 
-Research basis: Lewis et al. (2020), the original RAG paper, and current authoritative Microsoft Learn RAG documentation. See [SOURCES.md](SOURCES.md) and [FACTCHECK.md](FACTCHECK.md).
+## Evidence and review
 
-Planned deliverables: landscape 3840×2160 and independently composed portrait 2160×3840, 24 fps, approximately 60–90 seconds. Both Beat Sheets are prepared.
+- Claim support: [SOURCES.md](SOURCES.md), [FACTCHECK.md](FACTCHECK.md), and [AUDIO-REVIEW.md](AUDIO-REVIEW.md).
+- Production: [BUILD-LOG.md](BUILD-LOG.md), [scene source](src/DeepaRagExplainer.tsx), [landscape Beat Sheet](beat_sheet.json), [portrait Beat Sheet](vertical/beat_sheet.json).
+- Automated QC: [CHECKS-REPORT.md](CHECKS-REPORT.md), [master checks](MASTERCHECK.md), and [loudness report](LOUDNESS.md).
 
-## Review cuts ready for human watch-through
+## Current status and limits
 
-[HowRAGGivesAIExternalKnowledge_DeepaShenoy_NarrationReview.wav](audio-review/HowRAGGivesAIExternalKnowledge_DeepaShenoy_NarrationReview.wav) — 79.616 seconds. Deepa approved the exact narration; its audio hashes remain unchanged. Both native 4K review cuts are rendered and passed QC. **STOPPED at the mandatory human watch-the-cut gate.** See [AUDIO-REVIEW.md](AUDIO-REVIEW.md) for the complete approved narration.
+Deepa approved both complete review cuts. The source `STATUS.md` and `CHECKS-REPORT.md` preserve the earlier human-review-pending checkpoint; this later human approval supersedes that gate state without changing the historical reports or their machine-QC findings. Local submission packaging was completed according to the project handoff; no public upload or publication is claimed. No individual video approval by Sanjana R. or Professor B. is claimed.
 
-After final human visual approval only: copy approved MP4s to `/Users/deepashenoy/Downloads/Deepa_HAI_Submission/05_STEM_Week3/Video/` and relevant Markdown plus both Beat Sheets to `GitHub/`. No upload or publication. Keep originals.
+**Hours:** Not documented. **Open items:** No project-specific open production item is established here. See [FRICTIONAL.md](FRICTIONAL.md) and [STATUS.md](STATUS.md) for the dated reconciliation.

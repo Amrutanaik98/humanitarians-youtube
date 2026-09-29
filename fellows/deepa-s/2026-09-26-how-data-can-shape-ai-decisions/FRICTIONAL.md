@@ -11,3 +11,7 @@ The build log records a narration-duration revision before rendering: the earlie
 
 ## Evidence used
 `BUILD-LOG.md`, `FACTCHECK.md`, `AUDIO-REVIEW.md`, `STATUS.md`, `ToDo.md`, `LOUDNESS.md`, `_qc/loudness-landscape.md`, `_qc/loudness-portrait.md`, `beat_sheet.json`, `vertical/beat_sheet.json`, `src/DeepaDataDecisions.tsx`.
+
+## Status clarification — recorded 2026-09-29
+
+Deepa later approved both complete cuts; the exact approval date is recorded in the project status evidence. The unchecked generated TODO item is preserved and treated as a stale receipt. The revised narration was the version used. This entry reconciles current status without changing the earlier process or QC history. No manager approval is inferred.

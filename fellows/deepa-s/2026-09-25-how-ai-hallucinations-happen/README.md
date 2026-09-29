@@ -1,31 +1,19 @@
-# How AI Hallucinations Happen — Deepa Shenoy
+# How AI Hallucinations Happen
 
-## Brief
+**Creator:** Deepa S. · **Work period:** Week 2 of the August 25–September 30, 2026 agreement period · **Project/team:** Brutalist Videos, Sanjana R.'s team · **Type:** AI educational explainer
 
-- **Audience:** AI beginners and a general audience.
-- **Main question:** Why can a language model sound sure while giving an incorrect answer?
-- **Takeaway:** Fluent wording comes from learned language patterns; it does not verify claims by itself. Check important claims against reliable evidence, and treat retrieval as a way to reduce risk rather than guarantee truth.
-- **Target runtime:** Approximately 60–90 seconds; measured narration runtime is 87.712 seconds.
+## Work and result
 
-## Content plan
+I produced a beginner explainer about why fluent, confident-sounding language-model answers can still be unsupported. The film uses a clearly fictional example and explains retrieval as a way to improve grounding, not a guarantee of correctness. Landscape and portrait scenes were composed as separate formats; the project record describes targeted portrait scene corrections after the first QC review.
 
-Define hallucination plainly; explain token prediction and the lack of automatic claim verification; use one expressly fictional example; explain consequential risk; give practical checks and the limits of retrieval; finish with an HAI research exercise and the title-restating HAI close.
+## Evidence and review
 
-The fictional example is invented for this explainer: Bellora and Lumen are fictional names, not real places or a reported model output.
+- Content and sources: [FACTCHECK.md](FACTCHECK.md), [SOURCES.md](SOURCES.md), [SHOTLIST.md](SHOTLIST.md).
+- Production evidence: [BUILD-LOG.md](BUILD-LOG.md), [scene source](src/DeepaHallucinations.tsx), [landscape Beat Sheet](beat_sheet.json), [portrait Beat Sheet](vertical/beat_sheet.json).
+- QC: [QC-REPORT.md](QC-REPORT.md), [CHECKS-REPORT.md](CHECKS-REPORT.md), [TYPECHECK.md](TYPECHECK.md), [master checks](MASTERCHECK.md).
 
-## Production setup
+## Current status and limits
 
-- **Builder:** `ai-explainer`, HAI audience variant (`claude-hai`), Plain register.
-- **Brand:** Deepa Shenoy, Humanitarians AI, `@HumanitariansAI`.
-- **AI narrator:** Liam for Deepa, Kokoro `am_onyx`, reused from Deepa's previously approved setup. Spoken disclosure is retained in the supplied opening.
-- **HAI palette/type:** humanitarians palette; EB Garamond and Montserrat.
-- **Landscape:** native 16:9 at 3840×2160.
-- **Vertical:** independently composed 9:16 at 2160×3840, not cropped from landscape.
-- **Footage:** none required; visuals are planned as native programmatic illustrations.
-- **Publication:** no upload or publication is authorized.
+Deepa approved both complete cuts. Automated QC records nonblocking layout exceptions, including landscape bottom-safe-margin/end-card-underfill flags and portrait B00 right-safe-margin flags; the report's sampled visual assessment treated them as nonblocking, not as a raw automated-gate pass. These qualifications remain part of the result. The older pending-review records are preserved and reconciled in [STATUS.md](STATUS.md) and [FRICTIONAL.md](FRICTIONAL.md). No individual video approval by Sanjana R. or Professor B. is claimed.
 
-## Review status
-
-Both native 4K review cuts are complete: 3840×2160 and 2160×3840, each 87.958 seconds at 24 fps. Narration remains human-approved and unchanged. Agent QC is complete with documented nonblocking layout exceptions; see `QC-REPORT.md` for exact paths, evidence and preservation details.
-
-**Stopped at mandatory human watch-the-cut gate.** Human visual approval is pending. No submission copies, uploads or publication have been performed.
+**Hours:** Not documented. **Open items:** No further project-specific item is established by the available evidence. No publication claim is made.
