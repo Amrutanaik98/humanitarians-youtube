@@ -6,9 +6,12 @@
 
 ## What's in this folder
 
-No work in this folder yet. Each piece of work gets its own dated,
-lowercase-kebab subfolder — `YYYY-MM-DD-short-slug/` — holding its
-`beat_sheet.json`, README, sources and build assets.
+- [`2026-09-26-social-ai-brand-visibility/`](2026-09-26-social-ai-brand-visibility/) — "Can AI Content Automation Pace Brand Visibility?" — 2:58 ai-explainer, 16:9 + 9:16, source only (renders on Drive).
+- [`2026-09-27-hai-first-week/`](2026-09-27-hai-first-week/) — "My First Week at Humanitarians AI." — 1:54 ai-explainer, 16:9 + 9:16, source only (renders on Drive).
+- [`2026-09-28-hai-second-week/`](2026-09-28-hai-second-week/) — "My Second Week at Humanitarians AI." — 1:56 ai-explainer, 16:9 + 9:16, source only (renders on Drive).
+- [`2026-09-28-ai-content-vs-human-creativity/`](2026-09-28-ai-content-vs-human-creativity/) — "AI Content vs. Human Creativity: What Works Better?" — 2:40 ai-explainer, 16:9 + 9:16, source only (renders on Drive).
+
+**Voice:** Kokoro `af_bella` (Bella), used across the series.
 
 ## Frictional log
 
