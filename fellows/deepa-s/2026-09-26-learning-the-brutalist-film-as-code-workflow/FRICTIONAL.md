@@ -11,3 +11,7 @@ The build log records that frame-still review found safe-area/layout overlaps; t
 
 ## Evidence used
 `BUILD-LOG.md`, `CHECKS-REPORT.md`, `STATUS.md`, `ToDo.md`, `AUDIO-REVIEW.md`, `LOUDNESS.md`, `MASTERCHECK.md`, `beat_sheet.json`, `vertical/beat_sheet.json`, `src/DeepaWeek3Workflow.tsx`.
+
+## Status clarification — recorded 2026-09-29
+
+Deepa later watched and approved both complete cuts. The earlier pending entries in the build/check records remain unaltered historical checkpoints; current human-review status is approved. Machine QC and human approval remain distinct. The exact date of the later watch-through is not independently recorded here. No manager approval is inferred.

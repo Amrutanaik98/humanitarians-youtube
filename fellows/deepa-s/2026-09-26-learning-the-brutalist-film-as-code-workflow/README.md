@@ -1,12 +1,19 @@
 # Learning the Brutalist Film-as-Code Workflow
 
-Personal Week 3 progress update about lessons from the Brutalist tutorial and playlist material. It presents Deepa as a learner and user of the existing Humanitarians AI / Brutalist workflow, not its creator.
+**Creator:** Deepa S. · **Work period:** Week 3 of the August 25–September 30, 2026 agreement period · **Project/team:** Brutalist Videos, Sanjana R.'s team · **Type:** Personal progress update
 
-- Type: Week 3 Project Progress Update
-- Narrator: Liam / Kokoro `am_onyx` (reuse of explicitly approved voice)
-- Status: narration prepared; mandatory human narration review pending
-- Landscape: native 3840×2160, planned as a separate composition
-- Portrait: native 2160×3840, independently composed
-- Beat Sheets: `beat_sheet.json` and `vertical/beat_sheet.json`
+## Work and result
 
-The narration emphasizes toolkit setup, beat-sheet planning, human review, native aspect compositions, explainer workflows, content-led duration, narration timing, evidence, and machine-checkable QC. Personal application statements are limited to work Deepa supplied in the project brief.
+I made a personal progress update synthesizing lessons from the Brutalist learning material: beat-sheet planning, narration timing, evidence-led visuals, separate landscape and vertical composition, and human review alongside automated checks. The project distinguishes tutorial lessons from work I personally completed. I watched and approved both complete cuts.
+
+## Evidence and review
+
+- Project content and learning boundaries: [SCRIPT.md](SCRIPT.md), [BUILD-LOG.md](BUILD-LOG.md), [AUDIO-REVIEW.md](AUDIO-REVIEW.md).
+- Production source: [scene source](src/DeepaWeek3Workflow.tsx), [landscape Beat Sheet](beat_sheet.json), [portrait Beat Sheet](vertical/beat_sheet.json).
+- QC evidence: [CHECKS-REPORT.md](CHECKS-REPORT.md), [LOUDNESS.md](LOUDNESS.md), [master checks](MASTERCHECK.md).
+
+## Current status and limits
+
+Deepa approved both cuts and the project handoff records verified local submission copies. Older build/check entries saying the cuts were awaiting review are retained as historical checkpoints; they do not supersede the later human approval. Automated QC evidence is separate from that approval. No upload or publication is claimed and no individual approval by the project team or Professor B is claimed.
+
+**Hours:** Not documented. **Open items:** No project-specific open production item is documented here. See [FRICTIONAL.md](FRICTIONAL.md), [STATUS.md](STATUS.md), and the generated [TODO receipt](ToDo.md).

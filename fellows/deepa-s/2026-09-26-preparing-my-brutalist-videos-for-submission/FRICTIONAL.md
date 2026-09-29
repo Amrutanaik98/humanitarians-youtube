@@ -11,3 +11,7 @@ The build log records a visual-preview QC issue: pass-like checkmark labels were
 
 ## Evidence used
 `BUILD-LOG.md`, `EVIDENCE.md`, `FACTCHECK.md`, `STATUS.md`, `ToDo.md`, `AUDIO-REVIEW.md`, `LOUDNESS.md`, `_qc/loudness-landscape.md`, `_qc/loudness-portrait.md`, `beat_sheet.json`, `vertical/beat_sheet.json`, `src/DeepaSubmissionProgress.tsx`.
+
+## Status clarification — recorded 2026-09-29
+
+Deepa's later approval of both complete cuts is consistent with the current `STATUS.md`. The earlier pending heading in `AUDIO-REVIEW.md` and unchecked TODO item are preserved as historical workflow records and do not describe the current watch-the-cut gate. The reported work is local preparation; no upload or publication is claimed. No manager approval is inferred.

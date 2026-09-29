@@ -11,3 +11,7 @@ The build log records that some reusable library pieces were landscape-only or l
 
 ## Evidence used
 `BUILD-LOG.md`, `CHECKS-REPORT.md`, `AUDIO-REVIEW.md`, `TYPECHECK.md`, `STATUS.md`, `ToDo.md`, `_qc/REPORT.md`, `vertical/_qc/REPORT.md`, `beat_sheet.json`, `vertical/beat_sheet.json`, `src/DeepaWeek1Progress.tsx`.
+
+## Status clarification — recorded 2026-09-29
+
+Deepa's later review handoff confirms that both corrected cuts were watched and approved after `@NikBearBrown` was replaced by `@HumanitariansAI`. This records the current human-review outcome without changing the original QC or production history. The date of the corrected-cut watch-through is not independently recorded here. No manager approval is inferred.
