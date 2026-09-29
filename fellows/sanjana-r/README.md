@@ -1,7 +1,7 @@
 # Sanjana R.
 
 **Role:** Project Manager  
-**Project:** _to be filled in_  
+**Project:** _YouTube_  
 **GitHub:** [@SanjanaGRao](https://github.com/SanjanaGRao)
 
 ## What's in this folder
@@ -14,6 +14,7 @@
 - `09-02-2026-monte-carlo-schedule-risk-explainer/`
 - `09-19-2026 ai-effort-estimation/`
 - `09-19-2026 weekly-progress-update/`
+- `09-26-2026 ai-project-management-tools/`
 
 ## Frictional log
 
