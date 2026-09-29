@@ -53,7 +53,7 @@ Eight project-team YouTube review links are listed in the [fellow evidence index
 
 ## Weekly hours
 
-[HOURS.md](HOURS.md) reports reconstructed estimates: 52 progress/workflow hours and 48 STEM hours, totaling 100 hours for the documented Weeks 1–4 work. These estimates are based on my recollection and documented project activity; exact contemporaneous time records were not maintained. They are not Git-derived measurements or independently verified hours. The earlier September 29 report and project READMEs recorded hours as not documented; this renewal adds disclosed estimates without changing those historical records.
+[HOURS.md](HOURS.md) reports reconstructed estimates: 52 progress/workflow hours and 48 STEM hours, totaling 100 hours for the documented Weeks 1–4 work. These estimates are based on my recollection and documented project activity; exact contemporaneous time records were not maintained. They are not Git-derived measurements or independently verified hours. The September 29 catch-up report's Hours section was subsequently aligned with the reconstructed renewal-hours record in HOURS.md.
 
 ## Plan for the requested period
 

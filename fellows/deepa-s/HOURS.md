@@ -17,6 +17,6 @@ Weeks 1–4 use the labels and project pairings in [README.md](README.md) and th
 
 **Progress/workflow hours** cover the documented setup account, workflow learning, progress-video production, rendering, QC, corrections, documentation, and review/submission preparation as applicable to each project. **STEM hours** cover research, scripting, Beat Sheet preparation, content production, rendering/QC, and documentation. No precise activity-level allocation is claimed.
 
-The detailed project/evidence index is in [README.md](README.md); the renewal summary is in [RENEWAL.md](RENEWAL.md). The earlier reporting update and project READMEs said hours were not documented. Those historical records remain unchanged; this file supplies newly disclosed reconstructed estimates, not recovered contemporaneous logs.
+The detailed project/evidence index is in [README.md](README.md); the renewal summary is in [RENEWAL.md](RENEWAL.md). The September 29 catch-up report's Hours section was subsequently aligned with this reconstructed renewal-hours record. This file supplies reconstructed estimates, not recovered contemporaneous logs.
 
 Going forward, I will record weekly hours contemporaneously rather than reconstructing them later.
