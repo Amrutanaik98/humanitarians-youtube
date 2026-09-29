@@ -48,6 +48,18 @@ Each dated work folder includes its own `FRICTIONAL.md`, recording the process a
 
 Each project also includes its landscape `beat_sheet.json` and independently authored `vertical/beat_sheet.json`, alongside available documentation and source files. Beat Sheets are preserved as production records. Review and rendered media are not included in this documentation repository.
 
+## Hours
+
+| Week | Progress / workflow | STEM | Total |
+| --- | ---: | ---: | ---: |
+| Week 1 | 10 | 12 | 22 |
+| Week 2 | 14 | 11 | 25 |
+| Week 3 | 13 | 14 | 27 |
+| Week 4 | 15 | 11 | 26 |
+| **Total** | **52** | **48** | **100** |
+
+> These hours are reconstructed estimates based on documented project activity and my recollection of the time spent. Exact contemporaneous time records were not maintained for this reporting period. The detailed breakdown and methodology are documented in [HOURS.md](HOURS.md).
+
 ## Reporting boundary
 
 The dated report records reporting limits and any unknowns. No exact individual approval dates or project-to-YouTube-link mapping have been inferred. No private contact, immigration, or identity-document information is included.
