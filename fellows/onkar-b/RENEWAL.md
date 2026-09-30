@@ -4,8 +4,7 @@
 - **Requested period:** 01 Oct 2026 — 30 Nov 2026
 
 - **Project:** Mycroft — Provenance Gatekeeper
-- **Repository:** https://github.com/nikbearbrown/humanitarians-youtube
-- **Branch:** `onkar-week1-to-4`
+- **Repository:** https://github.com/nikbearbrown/mycroft/tree/main/provenance-gatekeeper
 
 ## What the current period produced
 
