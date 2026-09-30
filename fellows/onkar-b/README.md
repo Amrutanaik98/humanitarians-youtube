@@ -2,9 +2,8 @@
 
 - **Role:** AI Software Engineer
 - **Project:** Mycroft — Provenance Gatekeeper
-- **Repository:** https://github.com/nikbearbrown/humanitarians-youtube
-- **Branch:** `onkar-week1-to-4`
-- **Group / supervisor:** Mycroft / Professor Nik Bear Brown
+- **Repository:** (https://github.com/nikbearbrown/mycroft/tree/main/provenance-gatekeeper)
+- **Group / supervisor:** Mycroft / Shradha Katte
 - **Agreement period:** 01 Sep 2026 — 30 Sep 2026
 
 ## Research question
