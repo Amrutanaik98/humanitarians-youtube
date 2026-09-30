@@ -1,6 +1,6 @@
 # SurveyMind Response Pattern Realism Study (Madison) — Renewal Request
 
-**Request:** I'm requesting a fellowship renewal from October 1, 2026 through November 30, 2027. My current agreement ends September 30, 2026, and this summary covers the period from August 25 to September 30, 2026.
+**Request:** I'm requesting a fellowship renewal from October 1, 2026 through November 30, 2026. My current agreement ends September 30, 2026, and this summary covers the period from August 25 to September 30, 2026.
 
 **Completed:**
 - Built and validated a full statistical validation pipeline (Tucker's congruence coefficient, Jennrich test, bootstrap confidence intervals, per-trait KS test) for the SurveyMind Response Pattern Realism Study, tested against self-built known-outcome cases (0.9831 PASS / 0.5946 FAIL)
