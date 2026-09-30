@@ -17,10 +17,10 @@ Large language models confidently generate false numeric data. This project buil
 
 | Week | Work | Result | Evidence | Log |
 |---|---|---|---|---|
-| [01–07 Sep](./2026-09-07-work-infrastructure-cicd/) | Infrastructure & CI/CD | Scaffolded a Dockerized FastAPI backend to ensure execution isolation and integrated GitHub Actions to enforce strict deployment governance. | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-07-work-infrastructure-cicd/FRICTIONAL.md) |
-| [08–14 Sep](./2026-09-14-work-data-ingestion/) | Data Ingestion & Orchestration | Engineered the retrieval pipeline by loading financial ground-truth data via n8n into a local ChromaDB vector database. | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-14-work-data-ingestion/FRICTIONAL.md) |
-| [15–21 Sep](./2026-09-21-work-evaluation-layer/) | Evaluation Layer Engineering | Built deterministic grading logic to evaluate claims against the retrieved ledger, categorizing failures into strict magnitude and directional errors. | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-21-work-evaluation-layer/FRICTIONAL.md) |
-| [21–28 Sep](./2026-09-28-work-tracking-alerting/) | Tracking & Alerting System | Implemented a persistent SQLite database to permanently log all evaluated AI claims and integrated an automated outbound webhook system. | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-28-work-tracking-alerting/FRICTIONAL.md) |
+| [01–07 Sep](./2026-09-07-work-infrastructure-cicd/) | Infrastructure & CI/CD | Scaffolded a Dockerized FastAPI backend to ensure execution isolation and integrated GitHub Actions to enforce strict deployment governance. | [drive](https://drive.google.com/drive/folders/1WVcJvvy4fNrPXxgYmsOFLT2A5cCjKg-c) | [log](./2026-09-07-work-infrastructure-cicd/FRICTIONAL.md) |
+| [08–14 Sep](./2026-09-14-work-data-ingestion/) | Data Ingestion & Orchestration | Engineered the retrieval pipeline by loading financial ground-truth data via n8n into a local ChromaDB vector database. | [drive](https://drive.google.com/drive/folders/1_wYTFuAuS0MCtqxwmmeCd0e_2IEOw-Yd) | [log](./2026-09-14-work-data-ingestion/FRICTIONAL.md) |
+| [15–21 Sep](./2026-09-21-work-evaluation-layer/) | Evaluation Layer Engineering | Built deterministic grading logic to evaluate claims against the retrieved ledger, categorizing failures into strict magnitude and directional errors. | [drive](https://drive.google.com/drive/folders/1ca944LZn-m0oxm6S7Iq7rM5UrwprYLAK) | [log](./2026-09-21-work-evaluation-layer/FRICTIONAL.md) |
+| [21–28 Sep](./2026-09-28-work-tracking-alerting/) | Tracking & Alerting System | Implemented a persistent SQLite database to permanently log all evaluated AI claims and integrated an automated outbound webhook system. | [drive](https://drive.google.com/drive/folders/1v0LFVRNdma-HeUjIoWLViYzKnBw5ecIq) | [log](./2026-09-28-work-tracking-alerting/FRICTIONAL.md) |
 
 ## STEM Topics
 
@@ -28,10 +28,10 @@ Research, scripts, and logic mine; formatting and layout validation QC via Claud
 
 | Week | Topic | Evidence | Log |
 |---|---|---|---|
-| [01–07 Sep](./2026-09-07-stem-vector-embeddings/) | Vector Embeddings | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-07-stem-vector-embeddings/FRICTIONAL.md) |
-| [08–14 Sep](./2026-09-14-stem-reversal-curse/) | The Reversal Curse | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-14-stem-reversal-curse/FRICTIONAL.md) |
-| [15–21 Sep](./2026-09-21-stem-rag-architecture/) | RAG Architecture | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-21-stem-rag-architecture/FRICTIONAL.md) |
-| [21–28 Sep](./2026-09-28-stem-ai-guardrails/) | AI Guardrails | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-28-stem-ai-guardrails/FRICTIONAL.md) |
+| [01–07 Sep](./2026-09-07-stem-vector-embeddings/) | Vector Embeddings | [drive](https://drive.google.com/drive/folders/1n8JjUTFApVEmNuDq416108mWD_j6mkn3) | [log](./2026-09-07-stem-vector-embeddings/FRICTIONAL.md) |
+| [08–14 Sep](./2026-09-14-stem-reversal-curse/) | The Reversal Curse | [drive](https://drive.google.com/drive/folders/1R9HBJLmG9eLfsHnnvfllq9S4OmcPE6I2) | [log](./2026-09-14-stem-reversal-curse/FRICTIONAL.md) |
+| [15–21 Sep](./2026-09-21-stem-rag-architecture/) | RAG Architecture | [drive](https://drive.google.com/drive/folders/1oKfHZTythPKP0Ixc74HHd8syWrhaXeGq) | [log](./2026-09-21-stem-rag-architecture/FRICTIONAL.md) |
+| [21–28 Sep](./2026-09-28-stem-ai-guardrails/) | AI Guardrails | [drive](https://drive.google.com/drive/folders/1P9ePipZ7jwVtWySA69wZ3eFxB_nD15I9) | [log](./2026-09-28-stem-ai-guardrails/FRICTIONAL.md) |
 
 ## Next steps
 

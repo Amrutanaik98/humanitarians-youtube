@@ -21,19 +21,19 @@ Four weeks of building a deterministic AI validation pipeline from the ground up
 
 | Week | Work Update | Drive | Log |
 |---|---|---|---|
-| 1 — Infrastructure & CI/CD | [folder](./2026-09-07-work-infrastructure-cicd/) | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-07-work-infrastructure-cicd/FRICTIONAL.md) |
-| 2 — Data Ingestion | [folder](./2026-09-14-work-data-ingestion/) | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-14-work-data-ingestion/FRICTIONAL.md) |
-| 3 — Evaluation Layer | [folder](./2026-09-21-work-evaluation-layer/) | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-21-work-evaluation-layer/FRICTIONAL.md) |
-| 4 — Tracking & Alerting | [folder](./2026-09-28-work-tracking-alerting/) | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-28-work-tracking-alerting/FRICTIONAL.md) |
+| 1 — Infrastructure & CI/CD | [folder](./2026-09-07-work-infrastructure-cicd/) | [drive](https://drive.google.com/drive/folders/1WVcJvvy4fNrPXxgYmsOFLT2A5cCjKg-c) | [log](./2026-09-07-work-infrastructure-cicd-week-1/FRICTIONAL.md) |
+| 2 — Data Ingestion | [folder](./2026-09-14-work-data-ingestion/) | [drive](https://drive.google.com/drive/folders/1_wYTFuAuS0MCtqxwmmeCd0e_2IEOw-Yd) | [log](./2026-09-14-work-data-ingestion-week-2/FRICTIONAL.md) |
+| 3 — Evaluation Layer | [folder](./2026-09-21-work-evaluation-layer/) | [drive](https://drive.google.com/drive/folders/1ca944LZn-m0oxm6S7Iq7rM5UrwprYLAK) | [log](./2026-09-21-work-evaluation-layer-week-3/FRICTIONAL.md) |
+| 4 — Tracking & Alerting | [folder](./2026-09-28-work-tracking-alerting/) | [drive](https://drive.google.com/drive/folders/1v0LFVRNdma-HeUjIoWLViYzKnBw5ecIq) | [log](./2026-09-28-work-tracking-alerting-week-4/FRICTIONAL.md) |
 
 ## STEM Topics
 
 | Week | Topic | Drive | Log |
 |---|---|---|---|
-| 01–07 Sep | Vector Embeddings | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-07-stem-vector-embeddings/FRICTIONAL.md) |
-| 08–14 Sep | The Reversal Curse | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-14-stem-reversal-curse/FRICTIONAL.md) |
-| 15–21 Sep | RAG Architecture | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-21-stem-rag-architecture/FRICTIONAL.md) |
-| 21–28 Sep | AI Guardrails | [drive](https://drive.google.com/drive/folders/19z-I61uNyUiIOy27O9WdF-tERbSEoXnN) | [log](./2026-09-28-stem-ai-guardrails/FRICTIONAL.md) |
+| 01–07 Sep | Vector Embeddings | [drive](https://drive.google.com/drive/folders/1n8JjUTFApVEmNuDq416108mWD_j6mkn3) | [log](./2026-09-07-stem-vector-embeddings/FRICTIONAL.md) |
+| 08–14 Sep | The Reversal Curse | [drive](https://drive.google.com/drive/folders/1R9HBJLmG9eLfsHnnvfllq9S4OmcPE6I2) | [log](./2026-09-14-stem-reversal-curse/FRICTIONAL.md) |
+| 15–21 Sep | RAG Architecture | [drive](https://drive.google.com/drive/folders/1oKfHZTythPKP0Ixc74HHd8syWrhaXeGq) | [log](./2026-09-21-stem-rag-architecture/FRICTIONAL.md) |
+| 21–28 Sep | AI Guardrails | [drive](https://drive.google.com/drive/folders/1P9ePipZ7jwVtWySA69wZ3eFxB_nD15I9) | [log](./2026-09-28-stem-ai-guardrails/FRICTIONAL.md) |
 
 Weekly hours: [HOURS.md](HOURS.md). Weekly Frictional logs: one per folder, listed in [README.md](README.md).
 
