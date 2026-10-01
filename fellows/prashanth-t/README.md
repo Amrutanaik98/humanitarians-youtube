@@ -5,8 +5,9 @@
 **Repository:** _to be filled in_  
 **Branch:** _to be filled in_  
 **Group / supervisor:** _to be filled in_  
-**Agreement period:** 2 Sep — 30 Sep  
-**GitHub:** [@PrashanthTalwarr](https://github.com/PrashanthTalwarr)
+**Agreement period:** 2 Sep — _to be filled in_  
+**GitHub:** [@PrashanthTalwarr](https://github.com/PrashanthTalwarr)  
+**Rendered videos:** [Google Drive folder](https://drive.google.com/drive/folders/1fJAA92dC6Rvwrlc5mhOTIM0Pl8g6m9sp?usp=drive_link) — all four cuts
 
 ## Research question
 
@@ -28,8 +29,8 @@ archetype before scaling to twelve.
 | Week | Work | Result | Evidence | Log |
 |---|---|---|---|---|
 | 2–6 Sep | Onboarding | Madison project context, and the Brutalist reel pipeline — beat-sheet authoring, audio-first rendering, and the phase gates each build has to pass. | — | — |
-| 14–18 Sep | Scoping with the team | Ruler archetype chosen as the first target, for luxury branding. Three design commitments fixed: evidence-based reads, hybrid/tension-aware output, output that ends in application. Progress update produced 16 Sep. | [`madison-archetype-progress/`](madison-archetype-progress) · commit [`567602b`](https://github.com/nikbearbrown/humanitarians-youtube/commit/567602b88a8b005dda6b3c18f9c24eaab47753cb) | — |
-| 21–25 Sep | Technical design, from the section-five methodology | A concrete design across three parts: **inputs** — published brand copy, social captions, tagline, competitor copy, never a self-report questionnaire; **scoring** — every trait score carries the line of copy that earned it, so the output is auditable rather than a black box; **evaluation** — hand-labelled brands first, to prove it reads brand voice and not surface keywords. Progress update produced 24 Sep. | [`madison-archetype-progress-week2/`](madison-archetype-progress-week2) · commit [`9fd2e15`](https://github.com/nikbearbrown/humanitarians-youtube/commit/9fd2e15229bbf878c37c91f07d8d58193ee1b639) | — |
+| 14–18 Sep | Scoping with the team | Ruler archetype chosen as the first target, for luxury branding. Three design commitments fixed: evidence-based reads, hybrid/tension-aware output, output that ends in application. Progress update produced 16 Sep. | [`madison-archetype-progress/`](madison-archetype-progress) · [drive](https://drive.google.com/drive/folders/1fJAA92dC6Rvwrlc5mhOTIM0Pl8g6m9sp?usp=drive_link) · commit [`567602b`](https://github.com/nikbearbrown/humanitarians-youtube/commit/567602b88a8b005dda6b3c18f9c24eaab47753cb) | — |
+| 21–25 Sep | Technical design, from the section-five methodology | A concrete design across three parts: **inputs** — published brand copy, social captions, tagline, competitor copy, never a self-report questionnaire; **scoring** — every trait score carries the line of copy that earned it, so the output is auditable rather than a black box; **evaluation** — hand-labelled brands first, to prove it reads brand voice and not surface keywords. Progress update produced 24 Sep. | [`madison-archetype-progress-week2/`](madison-archetype-progress-week2) · [drive](https://drive.google.com/drive/folders/1fJAA92dC6Rvwrlc5mhOTIM0Pl8g6m9sp?usp=drive_link) · commit [`9fd2e15`](https://github.com/nikbearbrown/humanitarians-youtube/commit/9fd2e15229bbf878c37c91f07d8d58193ee1b639) | — |
 
 **Status: design stage.** Nothing is built and no results exist. The blocker is
 sample data — what format the samples arrive in, roughly how many brands are
@@ -45,8 +46,8 @@ drafting, beat sheets and production by Claude from them.
 
 | Week | Topic | Evidence | Log |
 |---|---|---|---|
-| 14–18 Sep | How LLM function calling works — the four-step loop, how a tool result returns as another message, the failure modes, and how the same loop is what an agent is built from | [`llm-function-calling/`](llm-function-calling) · commit [`567602b`](https://github.com/nikbearbrown/humanitarians-youtube/commit/567602b88a8b005dda6b3c18f9c24eaab47753cb) | — |
-| 21–25 Sep | How memory works in an AI agent — stateless model calls, short-term memory as the running conversation and its context ceiling, long-term memory as an external store, and the retrieve-into-context pattern | [`agent-memory/`](agent-memory) · commit [`9fd2e15`](https://github.com/nikbearbrown/humanitarians-youtube/commit/9fd2e15229bbf878c37c91f07d8d58193ee1b639) | — |
+| 14–18 Sep | How LLM function calling works — the four-step loop, how a tool result returns as another message, the failure modes, and how the same loop is what an agent is built from | [`llm-function-calling/`](llm-function-calling) · [drive](https://drive.google.com/drive/folders/1fJAA92dC6Rvwrlc5mhOTIM0Pl8g6m9sp?usp=drive_link) · commit [`567602b`](https://github.com/nikbearbrown/humanitarians-youtube/commit/567602b88a8b005dda6b3c18f9c24eaab47753cb) | — |
+| 21–25 Sep | How memory works in an AI agent — stateless model calls, short-term memory as the running conversation and its context ceiling, long-term memory as an external store, and the retrieve-into-context pattern | [`agent-memory/`](agent-memory) · [drive](https://drive.google.com/drive/folders/1fJAA92dC6Rvwrlc5mhOTIM0Pl8g6m9sp?usp=drive_link) · commit [`9fd2e15`](https://github.com/nikbearbrown/humanitarians-youtube/commit/9fd2e15229bbf878c37c91f07d8d58193ee1b639) | — |
 
 Both explainers run ~200 seconds in the Plain register for @HumanitariansAI. Each
 folder carries the `beat_sheet.json` the renderer consumes plus its build
