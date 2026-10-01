@@ -71,7 +71,7 @@ build and how they were resolved.
 ## Hours and renewal
 
 Weekly hours: [HOURS.md](HOURS.md) — logged by week, project and STEM split out  
-Renewal request: [RENEWAL.md](RENEWAL.md) — requesting 1 Oct – 30 Nov
+Renewal request: [RENEWAL.md](RENEWAL.md) — requesting 1 Oct – 31 Oct
 
 ## Frictional log
 

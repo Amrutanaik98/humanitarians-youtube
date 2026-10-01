@@ -2,7 +2,7 @@
 
 **Current agreement:** 2 Sep — 30 Sep
 
-**Requested period:** 1 Oct — 30 Nov
+**Requested period:** 1 Oct — 31 Oct
 
 **Project:** Madison — Jungian Brand Archetype Detector
 
@@ -66,9 +66,10 @@ listed in [README.md](README.md).
 
 ## Plan for the requested period
 
-Five sprints, in order, each gating the next. The sequence is deliberate: the
-sample data has to exist before evaluation means anything, and evaluation has to
-run before any scoring claim is worth making.
+Five sprints across October, in order, each gating the next. The sequence is
+deliberate: the sample data has to exist before evaluation means anything, and
+evaluation has to run before any scoring claim is worth making. The period is
+scoped to proving one archetype, not to breadth.
 
 1. **Unblock the sample data (1–3 Oct).** Settle format, approximate brand count,
    and who assembles it. Begin the hand-labelled set — brands scored by a human
@@ -86,16 +87,18 @@ run before any scoring claim is worth making.
    using the obvious vocabulary. **If it only agrees where the obvious keywords
    appear, that is the finding and it will be reported as such**, rather than
    tuning the scorer until it agrees with the labels.
-5. **Decision, then scale or fix (27–31 Oct).** Decide whether the Ruler scorer
-   is good enough to extend, against criteria fixed before the evaluation runs.
-   "Not yet" is an acceptable outcome and will be published as one. Only on a
-   pass does the work move to the adjacent luxury archetypes; the remaining nine
-   stay unscheduled.
+5. **Decision, and the application layer (27–31 Oct).** Decide whether the Ruler
+   scorer is good enough to extend, against criteria fixed before the evaluation
+   runs. **"Not yet" is an acceptable outcome and will be published as one.** On a
+   pass, begin the application layer the design promises — messaging pillars, tone
+   guardrails and the shadow — since a score without those is a diagnosis the
+   project explicitly set out not to stop at. On a fail, the sprint is spent on the
+   specific failure the evaluation named instead.
 
-**From 3 Nov:** whichever of extend-or-fix the decision selects, plus the
-application layer the design promises — messaging pillars, tone guardrails and
-the shadow — since a score without those is a diagnosis the project explicitly set
-out not to stop at.
+**Deliverable by 31 Oct:** one archetype proven or honestly failed, end to end,
+with an evaluation result that can be shown. The adjacent luxury archetypes and
+the remaining nine are **out of scope for this period** and stay unscheduled —
+extending before Ruler is proven is the mistake this plan exists to avoid.
 
 Reporting continues as it has: a dated frictional log per work folder, weekly
 hours, and a STEM explainer alongside the project work each week.
