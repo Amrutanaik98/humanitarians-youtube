@@ -2,8 +2,8 @@
 
 **Role:** AI/ML Developer  
 **Project:** Madison — Jungian Brand Archetype Detector  
-**Repository:** _to be filled in_  
-**Branch:** _to be filled in_  
+**Repository:** _to be confirmed_  
+**Branch:** not yet created — GitHub push access granted 28 Sep; code lands on a branch from the next sprint  
 **Group / supervisor:** _to be filled in_  
 **Agreement period:** 2 Sep — _to be filled in_  
 **GitHub:** [@PrashanthTalwarr](https://github.com/PrashanthTalwarr)  
@@ -71,7 +71,7 @@ build and how they were resolved.
 ## Hours and renewal
 
 Weekly hours: [HOURS.md](HOURS.md) — logged by week, project and STEM split out  
-Renewal request: _to be filled in_
+Renewal request: [RENEWAL.md](RENEWAL.md) — requesting 1 Oct – 30 Nov
 
 ## Frictional log
 
