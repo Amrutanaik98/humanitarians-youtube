@@ -4,8 +4,8 @@
 **Project:** Madison — Jungian Brand Archetype Detector  
 **Repository:** _to be filled in_  
 **Branch:** _to be filled in_  
-**Group / supervisor:** Komal BG(PM)/ Nina Harris(Lead)  
-**Agreement period:** 2 Sep — 30 Sep
+**Group / supervisor:** _to be filled in_  
+**Agreement period:** 2 Sep — _to be filled in_  
 **GitHub:** [@PrashanthTalwarr](https://github.com/PrashanthTalwarr)  
 **Rendered videos:** [Google Drive folder](https://drive.google.com/drive/folders/1fJAA92dC6Rvwrlc5mhOTIM0Pl8g6m9sp?usp=drive_link) — all four cuts
 
@@ -70,7 +70,7 @@ build and how they were resolved.
 
 ## Hours and renewal
 
-Weekly hours: _to be filled in_  
+Weekly hours: [HOURS.md](HOURS.md) — logged by week, project and STEM split out  
 Renewal request: _to be filled in_
 
 ## Frictional log
