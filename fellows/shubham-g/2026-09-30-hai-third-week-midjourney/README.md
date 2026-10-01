@@ -22,8 +22,8 @@ A 2:30.3 ai-explainer (Plain register) a hands-on Midjourney how-to for content 
 - **Checks:** CHECKS-REPORT.md, FACTCHECK.md, TYPECHECK.md, vertical/TYPECHECK.md. No approvals are claimed.
 
 ## Watch and review
-- Landscape — 3840×2160 — 2:30.3 — SHA-256 `f520e374141c9f5e5faf77d31d4f85001688ea6396551618185d340c13cd4165` — Drive link: _pending upload_
-- Vertical — 2160×3840 — 2:30.3 — SHA-256 `53c87ed3d482fff050327814fd28ae581627d852d933ea84ac7423656d59b442` — Drive link: _pending upload_
+- Landscape — 3840×2160 — 2:30.3 — SHA-256 `f520e374141c9f5e5faf77d31d4f85001688ea6396551618185d340c13cd4165` — Drive: [folder](https://drive.google.com/drive/folders/1jaMH-evfMVNSUNBv1dTEjlj8meVvyngm?usp=sharing)
+- Vertical — 2160×3840 — 2:30.3 — SHA-256 `53c87ed3d482fff050327814fd28ae581627d852d933ea84ac7423656d59b442` — Drive: [folder](https://drive.google.com/drive/folders/1jaMH-evfMVNSUNBv1dTEjlj8meVvyngm?usp=sharing)
 - PM review status: pending
-- YouTube 4K processing check: pending upload
+- YouTube 4K processing check: pending YouTube upload
 - Professors' publication decision: pending
