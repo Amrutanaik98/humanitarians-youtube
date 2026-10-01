@@ -1,54 +1,74 @@
-# Prashanth T.
+# Prashanth Talwar — Humanitarians AI Fellow
 
 **Role:** AI/ML Developer  
 **Project:** Madison — Jungian Brand Archetype Detector  
+**Repository:** _to be filled in_  
+**Branch:** _to be filled in_  
+**Group / supervisor:** _to be filled in_  
+**Agreement period:** _to be filled in_  
 **GitHub:** [@PrashanthTalwarr](https://github.com/PrashanthTalwarr)
 
-## What's in this folder
+## Research question
 
-Four pieces of work, each in its own subfolder. Two are progress updates on the
-Madison project; two are STEM/AI explainers. Subfolders here are currently named
-by reel slug rather than the dated `YYYY-MM-DD-short-slug/` form.
+Can a brand's archetype be identified from the language and visuals it actually
+publishes, scored so that a human can audit every number, rather than inferred from
+a self-reported brief — and can that accuracy be tested before the output is trusted?
 
-**Madison — project progress**
+Most archetype tools take a short self-description and return one label with a
+generic paragraph. They do not interrogate real evidence, they cannot express a
+hybrid, and they stop at diagnosis. Madison is built around three commitments
+instead: read what the brand actually ships, return a primary **and** a secondary
+archetype with the inconsistency between them named, and end in application —
+messaging pillars, tone guardrails, and the archetype's shadow. Scope is the Ruler
+archetype for luxury branding first, to prove the pipeline end to end on one
+archetype before scaling to twelve.
 
-- `madison-archetype-progress/` — scoping update. What the twelve Jungian brand
-  archetypes are, why most archetype tools are shallow (a short brief in, one
-  generic label out), and the three things this one does differently:
-  evidence-based reads of a brand's real language, hybrid/tension-aware output
-  that flags inconsistency, and output that ends in application. Starting with the
-  Ruler archetype for luxury branding. Status at the time: scoped, not built.
-- `madison-archetype-progress-week2/` — week-two design update. The section-five
-  methodology turned into a concrete technical design across three parts: inputs
-  (published brand copy, not a self-report questionnaire), scoring (every trait
-  score carries the line of copy that earned it), and evaluation (hand-labelled
-  brands first, to prove it reads voice and not surface keywords). Names the
-  blocker — sample data: format, count, owner. Status: design drafted, not built.
+## Project work
 
-**STEM / AI explainers**
+| Week | Work | Result | Evidence | Log |
+|---|---|---|---|---|
+| _to be filled in_ | Scoping with the team | Ruler archetype chosen as the first target, for luxury branding. Three design commitments fixed: evidence-based reads, hybrid/tension-aware output, output that ends in application. | [`madison-archetype-progress/`](madison-archetype-progress) · commit [`567602b`](https://github.com/nikbearbrown/humanitarians-youtube/commit/567602b88a8b005dda6b3c18f9c24eaab47753cb) | — |
+| _to be filled in_ | Technical design, from the section-five methodology | A concrete design across three parts: **inputs** — published brand copy, social captions, tagline, competitor copy, never a self-report questionnaire; **scoring** — every trait score carries the line of copy that earned it, so the output is auditable rather than a black box; **evaluation** — hand-labelled brands first, to prove it reads brand voice and not surface keywords. | [`madison-archetype-progress-week2/`](madison-archetype-progress-week2) · commit [`9fd2e15`](https://github.com/nikbearbrown/humanitarians-youtube/commit/9fd2e15229bbf878c37c91f07d8d58193ee1b639) | — |
 
-- `llm-function-calling/` — how a model that can only produce text uses external
-  tools. The four-step loop, how a tool result returns as another message, the
-  common failure modes, and how the same loop is what an agent is built from.
-- `agent-memory/` — how memory works in an AI agent. Why each model call is
-  stateless, short-term memory as the running conversation and its context ceiling,
-  long-term memory as a store outside the model, and the retrieve-into-context
-  pattern.
+**Status: design stage.** Nothing is built and no results exist. The blocker is
+sample data — what format the samples arrive in, roughly how many brands are
+needed, and who gathers them. Until that exists, evaluation cannot start and no
+accuracy figure is quotable. Both progress reels state this on screen rather than
+implying a working system: the one scored output shown is labelled a design target
+with placeholder values, and the evaluation figure is labelled illustrative.
 
-**Shared code**
+## STEM Topics
 
-- `FnCalling.tsx` — the reel-local Remotion components these cuts use:
-  `FnCallLoop` (the four-stage request/response figure), `FnCallPredictCard`, and
-  `FnCallTitleOutro`.
+Topic selection and the content outline for each explainer are mine; narration
+drafting, beat sheets and production by Claude from them.
 
-Each work subfolder holds `beat_sheet.json` (the authored reel, which is what the
-renderer consumes) alongside its build documentation: `SHOTLIST.md` (typed work
-order and per-beat scene assignment), `FACTCHECK.md` (claim-by-claim basis),
-`SOURCES.md` (provenance, and what is constructed or illustrative rather than
-measured), `CHECKS-REPORT.md` (the pre-render gate report), `PROMPTS.md` (the
-prompts shown on screen), and `BUILD-PROMPT.md` (a paste-ready prompt that rebuilds
-the reel end to end). Two folders also carry a `BUILD-LOG.md`, recording defects
-found during the build and how they were resolved.
+| Week | Topic | Evidence | Log |
+|---|---|---|---|
+| 28 Sep | How LLM function calling works — the four-step loop, how a tool result returns as another message, the failure modes, and how the same loop is what an agent is built from | [`llm-function-calling/`](llm-function-calling) · commit [`567602b`](https://github.com/nikbearbrown/humanitarians-youtube/commit/567602b88a8b005dda6b3c18f9c24eaab47753cb) | — |
+| 29 Sep | How memory works in an AI agent — stateless model calls, short-term memory as the running conversation and its context ceiling, long-term memory as an external store, and the retrieve-into-context pattern | [`agent-memory/`](agent-memory) · commit [`9fd2e15`](https://github.com/nikbearbrown/humanitarians-youtube/commit/9fd2e15229bbf878c37c91f07d8d58193ee1b639) | — |
+
+Both explainers run ~200 seconds in the Plain register for @HumanitariansAI. Each
+folder carries the `beat_sheet.json` the renderer consumes plus its build
+documentation: the typed work order, a claim-by-claim factcheck, a provenance note
+marking what is constructed or illustrative rather than measured, the pre-render
+gate report, the on-screen prompts, and a paste-ready prompt that rebuilds the reel
+end to end. `FnCalling.tsx` holds the reel-local Remotion components these cuts
+share.
+
+## Next steps
+
+- **Sample data** — settle format, approximate brand count, and ownership. This is
+  the blocker; evaluation cannot begin without it.
+- **Design review** — run the technical design through review and produce a proper
+  SDD, which is what the build is written against.
+- **Build and prove Ruler** — one archetype, end to end, against the hand-labelled
+  set, before anything scales.
+- **Then the other eleven** — scale is the last step, not the first. Not scheduled.
+
+## Hours and renewal
+
+Weekly hours: _to be filled in_  
+Renewal request: _to be filled in_
 
 ## Frictional log
 
