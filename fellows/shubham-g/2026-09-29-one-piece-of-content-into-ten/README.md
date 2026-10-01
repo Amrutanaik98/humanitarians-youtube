@@ -22,8 +22,8 @@ A 2:25.7 ai-explainer (Plain register) on breaking one long-form video into atom
 - **Checks:** CHECKS-REPORT.md, FACTCHECK.md, TYPECHECK.md, vertical/TYPECHECK.md. No approvals are claimed.
 
 ## Watch and review
-- Landscape — 3840×2160 — 2:25.7 — SHA-256 `f3a1e46ea37faa99312c29e49aac8231148565ea573c67af1f8e255213a748c3` — Drive link: _pending upload_
-- Vertical — 2160×3840 — 2:25.7 — SHA-256 `6f3b061f3041f174193136e7be5daa3d884c5015e0aa8d92f4c4e3f3c4aef369` — Drive link: _pending upload_
+- Landscape — 3840×2160 — 2:25.7 — SHA-256 `f3a1e46ea37faa99312c29e49aac8231148565ea573c67af1f8e255213a748c3` — Drive: [folder](https://drive.google.com/drive/folders/1jaMH-evfMVNSUNBv1dTEjlj8meVvyngm?usp=sharing)
+- Vertical — 2160×3840 — 2:25.7 — SHA-256 `6f3b061f3041f174193136e7be5daa3d884c5015e0aa8d92f4c4e3f3c4aef369` — Drive: [folder](https://drive.google.com/drive/folders/1jaMH-evfMVNSUNBv1dTEjlj8meVvyngm?usp=sharing)
 - PM review status: pending
-- YouTube 4K processing check: pending upload
+- YouTube 4K processing check: pending YouTube upload
 - Professors' publication decision: pending

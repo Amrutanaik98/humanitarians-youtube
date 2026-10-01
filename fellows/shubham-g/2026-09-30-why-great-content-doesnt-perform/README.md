@@ -22,8 +22,8 @@ A 2:57.9 ai-explainer (Plain register) on why strong content can still underperf
 - **Checks:** CHECKS-REPORT.md, FACTCHECK.md, TYPECHECK.md, vertical/TYPECHECK.md. No approvals are claimed.
 
 ## Watch and review
-- Landscape — 3840×2160 — 2:57.9 — SHA-256 `13a826fa6f9dd58b169d760b9c0ca33ef581b6e65782fed878f548a56e8751f7` — Drive link: _pending upload_
-- Vertical — 2160×3840 — 2:57.9 — SHA-256 `069e35ba2e3ef830476d966f2b7353fde35bbe38854e8dcbb84f14e7dd20e4d3` — Drive link: _pending upload_
+- Landscape — 3840×2160 — 2:57.9 — SHA-256 `13a826fa6f9dd58b169d760b9c0ca33ef581b6e65782fed878f548a56e8751f7` — Drive: [folder](https://drive.google.com/drive/folders/1jaMH-evfMVNSUNBv1dTEjlj8meVvyngm?usp=sharing)
+- Vertical — 2160×3840 — 2:57.9 — SHA-256 `069e35ba2e3ef830476d966f2b7353fde35bbe38854e8dcbb84f14e7dd20e4d3` — Drive: [folder](https://drive.google.com/drive/folders/1jaMH-evfMVNSUNBv1dTEjlj8meVvyngm?usp=sharing)
 - PM review status: pending
-- YouTube 4K processing check: pending upload
+- YouTube 4K processing check: pending YouTube upload
 - Professors' publication decision: pending

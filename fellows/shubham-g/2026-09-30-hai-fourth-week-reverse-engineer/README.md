@@ -22,8 +22,8 @@ A 2:45.7 ai-explainer (Plain register) on building one learning video and then r
 - **Checks:** CHECKS-REPORT.md, FACTCHECK.md, TYPECHECK.md, vertical/TYPECHECK.md. No approvals are claimed.
 
 ## Watch and review
-- Landscape — 3840×2160 — 2:45.7 — SHA-256 `0a69b29fd20edc4713a304b5108ca6c6e51a88e3630e58b958a04fa2b2ec8006` — Drive link: _pending upload_
-- Vertical — 2160×3840 — 2:45.7 — SHA-256 `c778ae8cfe8421322d95c8b67b7327ccfaa4eb2c39f8f30ac1cfdc87f9aa5e5f` — Drive link: _pending upload_
+- Landscape — 3840×2160 — 2:45.7 — SHA-256 `0a69b29fd20edc4713a304b5108ca6c6e51a88e3630e58b958a04fa2b2ec8006` — Drive: [folder](https://drive.google.com/drive/folders/1jaMH-evfMVNSUNBv1dTEjlj8meVvyngm?usp=sharing)
+- Vertical — 2160×3840 — 2:45.7 — SHA-256 `c778ae8cfe8421322d95c8b67b7327ccfaa4eb2c39f8f30ac1cfdc87f9aa5e5f` — Drive: [folder](https://drive.google.com/drive/folders/1jaMH-evfMVNSUNBv1dTEjlj8meVvyngm?usp=sharing)
 - PM review status: pending
-- YouTube 4K processing check: pending upload
+- YouTube 4K processing check: pending YouTube upload
 - Professors' publication decision: pending
