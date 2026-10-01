@@ -47,7 +47,7 @@ drafting, beat sheets and production by Claude from them.
 | Week | Topic | Evidence | Log |
 |---|---|---|---|
 | 14–18 Sep | How LLM function calling works — the four-step loop, how a tool result returns as another message, the failure modes, and how the same loop is what an agent is built from | [`llm-function-calling/`](llm-function-calling) · [drive](https://drive.google.com/drive/folders/1fJAA92dC6Rvwrlc5mhOTIM0Pl8g6m9sp?usp=drive_link) · commit [`567602b`](https://github.com/nikbearbrown/humanitarians-youtube/commit/567602b88a8b005dda6b3c18f9c24eaab47753cb) | — |
-| 21–25 Sep | How memory works in an AI agent — stateless model calls, short-term memory as the running conversation and its context ceiling, long-term memory as an external store, and the retrieve-into-context pattern | [`agent-memory/`](agent-memory) · [drive](https://drive.google.com/drive/folders/1fJAA92dC6Rvwrlc5mhOTIM0Pl8g6m9sp?usp=drive_link) · commit [`9fd2e15`](https://github.com/nikbearbrown/humanitarians-youtube/commit/9fd2e15229bbf878c37c91f07d8d58193ee1b639) | — |
+| 21–25 Sep | How memory works in an AI agent — stateless model calls, short-term memory as the running conversation and its context ceiling, long-term memory as an external store, and the retrieve-into-context pattern | [`agent-memory/`](agent-memory) · [drive](https://drive.google.com/drive/folders/1fJAA92dC6Rvwrlc5mhOTIM0Pl8g6m9sp?usp=drive_link) · commit [`9fd2e15`](https://github.com/nikbearbrown/humanitarians-youtube/commit/9fd2e15229bbf878c37c91f07d8d58193ee1b639) | [log](agent-memory/FRICTIONAL.md) |
 
 Both explainers run ~200 seconds in the Plain register for @HumanitariansAI. Each
 folder carries the `beat_sheet.json` the renderer consumes plus its build
