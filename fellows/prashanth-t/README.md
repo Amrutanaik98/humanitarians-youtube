@@ -5,7 +5,7 @@
 **Repository:** _to be filled in_  
 **Branch:** _to be filled in_  
 **Group / supervisor:** Komal BG(PM)/ Nina Harris(Lead)  
-**Agreement period:** 2 Sep — _to be filled in_  
+**Agreement period:** 2 Sep — 30 Sep
 **GitHub:** [@PrashanthTalwarr](https://github.com/PrashanthTalwarr)  
 **Rendered videos:** [Google Drive folder](https://drive.google.com/drive/folders/1fJAA92dC6Rvwrlc5mhOTIM0Pl8g6m9sp?usp=drive_link) — all four cuts
 
