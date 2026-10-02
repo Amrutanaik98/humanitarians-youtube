@@ -64,6 +64,14 @@ measured clock — see that episode's `BUILD-LOG.md`, "REVISION 2".
   topic explainer on quantum AI: the demonstrated wins run the other way — machine
   learning improving quantum error correction, not qubits speeding up pattern
   finding. 11 beats · ~3:49.
+- [2026-10-02 — The Status Is A Claim](./2026-10-02-mycroft-weekly-the-status-is-a-claim/) —
+  weekly work report on `mycroft` @ `8c13b87`, **episode 6**: three questions for
+  any status field, and what it costs to write down the evidence behind one.
+  12 beats · ~3:15.
+- [2026-10-02 — Levels, Not Layers](./2026-10-02-hope-nested-learning/) —
+  topic explainer on HOPE and nested learning. The brief called it a training
+  method; it is an architecture, and the video corrects that on screen.
+  11 beats · ~3:27.
 
 The two 2026-08-27 folders carry a `short/` subfolder: a derivative 1080×1920 cut
 for YouTube Shorts, reusing the parent's audio with only the funnel outro
@@ -81,7 +89,7 @@ closes on "gate 2 cannot clear"; ep 2 resolves two rows of that list; ep 3's
 falsifiability beat lands back on ep 1's frozen corpus; ep 4 closes the ledger
 at six of six steps and finds the same ep-1 defect one level up (a gate with
 nothing to fail). Watch them in order:
-`9ef4e7f` → `bdc1bc1` → `253ee74` → `aa0c0fe` → `4157a8e`.
+`9ef4e7f` → `bdc1bc1` → `253ee74` → `aa0c0fe` → `4157a8e` → `8c13b87`.
 
 **Dual-use note:** *The Gap You Can Actually Close* is a security topic handled
 defensively. It explains what the term names, reports published statistics, and
