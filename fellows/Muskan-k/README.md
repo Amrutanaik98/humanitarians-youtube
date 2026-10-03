@@ -22,6 +22,8 @@
 - `2026-09-11-agent-harness/` - agent harness (2026-09-11)
 - `2026-09-18-ai-compute/` - agent harness (2026-09-18)
 - `2026-09-25-system-one/` - system one (2026-09-25)
+- `2026-09-25-vendor-intel-ratelimit/` - vendor ratelimit (2026-09-25)
+- `2026-10-02-vendor-intel-tracing/` - vendor tracing (2026-10-02)
 
 
 ## Frictional log
