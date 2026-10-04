@@ -7,7 +7,7 @@
 
 - **Drive:** https://drive.google.com/drive/folders/1yKVBYPyQgFm5b8YU5RWBivLH2E-KP4Hy
 - **Deferred from:** [logo reel script.md](../2026-08-17-medhavy-brand-intro/script.md) — "16:9 only … say the word and I'll add a 9:16 cut"
-- **Hours:** 11 hrs formats + 6 hrs video fix — [HOURS.md](../HOURS.md)
+- **Hours:** Week 16 total 22.0 — 11.0 formats + 6.0 video fix on this thread — [HOURS.md](../HOURS.md)
 
 **What I was working on.** Turning a confirmed outro design into the actual
 deliverables — 16:9, 9:16, 4K — and separately fixing a production video that

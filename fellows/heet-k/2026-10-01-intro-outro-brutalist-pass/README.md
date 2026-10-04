@@ -47,6 +47,7 @@ the existing one.*
 
 ## Hours
 
-11 hrs of the week's 20 production hours — [HOURS.md](../HOURS.md). The other
-8 hrs went to [continued channel planning](../2026-09-24-channel-reorganization/),
-logged there as an appended entry rather than a new folder.
+**Week 18 total: 22.0 hrs** — [HOURS.md](../HOURS.md). Split: 11.0 on this
+thread, 8.0 on [continued channel planning](../2026-09-24-channel-reorganization/)
+(logged there as an appended entry rather than a new folder), 1.0 self-review,
+2.0 full-team meeting.

@@ -7,7 +7,7 @@
 
 - **Evidence:** NOT PROVIDED — no renders, no skill commit. See [README.md](README.md#evidence-gap--stated-plainly)
 - **Supersedes nothing:** the [Week 15 set](../2026-09-11-intro-outro-final/) is still the confirmed final.
-- **Hours:** 11 hrs — [HOURS.md](../HOURS.md)
+- **Hours:** Week 18 total 22.0 — 11.0 on this thread — [HOURS.md](../HOURS.md)
 
 **What I was working on.** Another pass on the intro and outro, but built a
 different way: through the Brutalist tool, driven by a skill and its `CLAUDE.md`
