@@ -55,3 +55,53 @@ to fix, and it is more important than the plan itself: a plan nobody can read is
 not a plan anyone can disagree with.
 
 I also do not know whether the structure is right, because no one has seen it.
+
+---
+
+## 2026-10-04 — still deciding, a week later
+
+> Written 2026-10-03, within the week it describes, from the Week 18 report.
+> Appended to this folder rather than opening a new one: this is the same
+> Phase 1 thread continuing, not a separate piece of work.
+
+- **Evidence:** still NOT PROVIDED — nothing written down this week either.
+- **Hours:** 8 hrs — [HOURS.md](../HOURS.md)
+- **This week's other thread:** [intro/outro via the Brutalist skill](../2026-10-01-intro-outro-brutalist-pass/)
+
+**What I was working on.** The same question as last week: what types of video
+the Medhavy channel should hold.
+
+**What I tried, and what I expected.** Last week I thought the plan would fall
+out once the channel was tidied. It didn't, so I expected a second week on it
+to close it. It did not close either.
+
+**Where it resisted, and what I did next.**
+
+- **The question is harder than it looks because it is not really about
+  videos.** Choosing content types means deciding who the channel is for. The
+  existing material spans quantum-mechanics chapter explainers, brand stings,
+  and textbook walkthroughs — those imply different audiences, and I cannot pick
+  content types without picking between them first. I did not resolve that.
+- **Two weeks in, still labelled Phase 1.** The honest move was to log it as
+  continuing rather than manufacture a conclusion to make the week look finished.
+  But a plan that stays in progress for two weeks with nothing written down is
+  drifting, not deliberating, and I should treat the next week on it differently.
+- **I still wrote nothing down.** Last week's entry named this as the thing to
+  fix and said a plan nobody can read is not a plan anyone can disagree with.
+  I then spent another eight hours not fixing it. Recording that plainly is the
+  only useful thing I can do with it here.
+
+**What Claude contributed, and what I accepted, changed or rejected.**
+
+*TODO — Heet: same as the previous entry — say whether this was manual channel
+work or assisted drafting, and what you kept.*
+
+**What I understand now, and what I still do not.**
+
+I understand that "continue planning" is not a task with an end condition, and
+that is why two weeks produced no artifact. The next session on this needs a
+deliverable named in advance — a written list of content types, even a wrong one
+— rather than more deciding.
+
+I do not know who the channel is for, and I now think that is the actual blocker
+rather than a detail to settle later. I also still have nothing a reader can open.
