@@ -97,6 +97,7 @@ the standing choice, and `af_bella` is the one carried as history.
 | 2026-09-20 | [`2026-09-20-the-emptiest-row-mycroft`](./2026-09-20-the-emptiest-row-mycroft/) | Lloyds — four AI systems scored on the same two axes, and the one row that came back empty |
 | 2026-09-27 | [`2026-09-27-which-of-gardners-eight-intelligences-stem-video`](./2026-09-27-which-of-gardners-eight-intelligences-stem-video/) | Which of Gardner's eight intelligences can a machine do? — eight rooms, and a light only where Gardner's own writing turns it on |
 | 2026-09-27 | [`2026-09-27-read-the-receipt-backwards-mycroft`](./2026-09-27-read-the-receipt-backwards-mycroft/) | Mastercard Agent Pay — read the receipt backwards, and name the step that earned each line |
+| 2026-10-04 | [`2026-10-04-why-a-coin-flip-beats-this-learning-algorithm-stem-video`](./2026-10-04-why-a-coin-flip-beats-this-learning-algorithm-stem-video/) | Why a coin flip beats this learning algorithm — Sutton & Barto's short corridor, a coin biased 2 − √2, and the blindfold test for when randomness is the best move |
 
 ## Two lanes
 
