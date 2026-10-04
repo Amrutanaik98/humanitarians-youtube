@@ -9,7 +9,8 @@ weekly reports generated via Addams (Frictional Learning Journal).
 | 15 | 7–13 Sep | Sri explainer finalized, confirmed, committed (9) · intro & outro created, professor-finalized (8) · self-review (1) | 18.0 | 3.0 | **21.0** |
 | 16 | 14–20 Sep | Final outro in 16:9, 9:16, 4K (11) · fixed not-visible video, uploaded, linked in codebase (6) · self-review (2) | 19.0 | 3.0 | **22.0** |
 | 17 | 21–27 Sep | Channel reorganization — unlist/remove (10) · channel structure and content plan, Phase 1 (8) · self-review (1) | 19.0 | 2.0 | **21.0** |
-| **Total** | | | **73.0** | **11.0** | **84.0** |
+| 18 | 28 Sep – 4 Oct | Intro & outro created/updated via the Brutalist skill (11) · continued deciding channel video types (8) · self-review (1) | 20.0 | 2.0 | **22.0** |
+| **Total** | | | **93.0** | **13.0** | **106.0** |
 
 Each week meets the 20-hour requirement at the stated split.
 

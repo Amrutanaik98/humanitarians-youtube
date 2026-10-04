@@ -8,7 +8,7 @@
 - **Channel:** [youtube.com/@MedhavyAI](https://www.youtube.com/@MedhavyAI)
 - **Kokoro voice:** `am_onyx` ("Onyx") — declared in every `claude-sri` beat sheet as `voice_kokoro`.
   See [voice note](#voice) below.
-- **Reporting period covered here:** 17 Aug – 27 Sep 2026
+- **Reporting period covered here:** 17 Aug – 4 Oct 2026
 
 ## What this folder is
 
@@ -33,6 +33,7 @@ live in Drive and are linked per week below, per the repo's
 | [31 Aug – 6 Sep](./2026-09-04-medhavy-brand-outro/) | Intros finalized; more outros created | **Intros professor-confirmed final.** Outros sent for review — not yet approved. | [drive](https://drive.google.com/drive/folders/15BtMVhwD9_A7J0Pt2pc2DHLcuF9RWxl7) | [log](./2026-09-04-medhavy-brand-outro/FRICTIONAL.md) |
 | [7–13 Sep](./2026-09-11-intro-outro-final/) | Intro & outro both finalized | **Both professor-confirmed done**, set for use on the channel. Branding arc closed. | [drive](https://drive.google.com/drive/folders/1yKVBYPyQgFm5b8YU5RWBivLH2E-KP4Hy) | [log](./2026-09-11-intro-outro-final/FRICTIONAL.md) |
 | [14–20 Sep](./2026-09-17-outro-formats-and-video-fix/) | Final outro in delivery formats; production-video fix | Outro delivered 16:9 + 9:16 + 4K, professor-confirmed. A not-visible video fixed, uploaded, and its link wired into the Medhavy codebase. | [drive](https://drive.google.com/drive/folders/1yKVBYPyQgFm5b8YU5RWBivLH2E-KP4Hy) | [log](./2026-09-17-outro-formats-and-video-fix/FRICTIONAL.md) |
+| [28 Sep – 4 Oct](./2026-10-01-intro-outro-brutalist-pass/) | Further intro/outro pass, built through the Brutalist skill + its `CLAUDE.md` | **Self-reviewed, held — not sent, not confirmed.** Does not supersede the Week 15 confirmed set. | NOT PROVIDED — no renders, no skill commit | [log](./2026-10-01-intro-outro-brutalist-pass/FRICTIONAL.md) |
 
 ## `sri-explainer` — chapter-to-video skill
 
@@ -48,6 +49,7 @@ live in Drive and are linked per week below, per the repo's
 | Week | Work | Result | Evidence | Log |
 |---|---|---|---|---|
 | [21–27 Sep](./2026-09-24-channel-reorganization/) | Channel cleanup and content plan | Unnecessary videos unlisted/removed — completed. Structure and content plan at **Phase 1**, self-directed, not externally reviewed. | NOT PROVIDED — no capture or artifact of the channel state | [log](./2026-09-24-channel-reorganization/FRICTIONAL.md) |
+| [28 Sep – 4 Oct](./2026-09-24-channel-reorganization/) | Content-type planning continued | Still **Phase 1, in progress** after a second week. Self-directed, not finalized, not reviewed. Logged as an appended entry in the same folder, not a new one. | NOT PROVIDED — still nothing written down | [log](./2026-09-24-channel-reorganization/FRICTIONAL.md) |
 
 ## Voice
 
