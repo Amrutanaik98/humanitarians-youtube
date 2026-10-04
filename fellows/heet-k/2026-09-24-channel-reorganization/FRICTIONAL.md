@@ -7,7 +7,7 @@
 
 - **Channel:** https://www.youtube.com/@MedhavyAI
 - **Evidence:** NOT PROVIDED — see [README.md](README.md#evidence-gap--stated-plainly)
-- **Hours:** 10 hrs reorganization + 8 hrs planning — [HOURS.md](../HOURS.md)
+- **Hours:** Week 17 total 21.0 — 10.0 reorganization + 8.0 planning on this thread — [HOURS.md](../HOURS.md)
 
 **What I was working on.** Stepping back from making individual videos to shaping
 the container they go in: cleaning up what was already on the Medhavy channel, and
@@ -65,7 +65,7 @@ I also do not know whether the structure is right, because no one has seen it.
 > Phase 1 thread continuing, not a separate piece of work.
 
 - **Evidence:** still NOT PROVIDED — nothing written down this week either.
-- **Hours:** 8 hrs — [HOURS.md](../HOURS.md)
+- **Hours:** Week 18 total 22.0 — 8.0 on this thread — [HOURS.md](../HOURS.md)
 - **This week's other thread:** [intro/outro via the Brutalist skill](../2026-10-01-intro-outro-brutalist-pass/)
 
 **What I was working on.** The same question as last week: what types of video

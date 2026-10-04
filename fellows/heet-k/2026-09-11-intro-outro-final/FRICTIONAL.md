@@ -7,7 +7,7 @@
 
 - **Drive:** https://drive.google.com/drive/folders/1yKVBYPyQgFm5b8YU5RWBivLH2E-KP4Hy
 - **Same week, other thread:** [`sri-explainer` finalized and committed](../2026-08-24-sri-explainer-skill/FRICTIONAL.md)
-- **Hours:** 8 hrs this thread — [HOURS.md](../HOURS.md)
+- **Hours:** Week 15 total 21.0 — 8.0 on this thread — [HOURS.md](../HOURS.md)
 
 **What I was working on.** Getting the outros to the state the intros reached two
 weeks earlier, and making the intro/outro set read as one identity rather than two
