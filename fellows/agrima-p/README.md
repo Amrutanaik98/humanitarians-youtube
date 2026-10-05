@@ -63,6 +63,58 @@ an explicit, documented re-voice decision is made.
   article's own hedged stats (creator-venture share, trust-over-personality)
   are carried with on-screen skepticism flags, not presented as settled
   fact. 16:9 + 9:16 cuts (9:16 drops 3 middle beats to fit the Shorts cap).
+- `2026-09-19-weekly-recap-suffolk/` — This Week: What Shipped, What's Next
+  (Suffolk edition). A CLI-explainer weekly recap — a separate week's log
+  from the earlier weekly-recap builds — built around a real
+  weekly_recap_v1.py, revised into weekly_recap_v2.py to split
+  DONE-THIS-WEEK from STARTING-NEXT-WEEK — both scripts real, both actually
+  run. 16:9 + 9:16 cuts (9:16 is a full-parity reformat, no beats dropped).
+  Content: publishing the "No Face, No Problem" article on Substack,
+  producing four Brutalist videos, and preparing the upcoming Humanitarians
+  AI guest lecture at Suffolk University with Yatra. No stock footage — the
+  article header, four-video grid, and lecture slide/podium card are all
+  generated visuals.
+- `2026-09-26-ai-that-never-forgets/` — The AI That Never Forgets: How
+  Marketing Is Learning to Read Your Mind, One Conversation at a Time. User
+  asked for a "Deep Explainer" at exactly 4:00 with no dedicated footage —
+  the toolkit's actual deep-explainer skill targets 5-10 min and requires
+  ~20-25% of beats to be pantry/archival stills, so built instead on the
+  ai-explainer chassis (disclosed substitution). Neutral, balanced,
+  observational tone per explicit request — presents the marketing-
+  personalization upside of AI persistent memory alongside its privacy
+  tradeoffs, without a verdict. 16:9 (3:49) + 9:16 (2:46, two densest middle
+  beats auto-dropped to fit the Shorts cap, outro and endcard hand-rewritten)
+  cuts.
+- `2026-09-26-weekly-recap-never-forgets/` — This Week: What Shipped. A
+  CLI-explainer weekly recap — a separate week's log from the earlier
+  weekly-recap builds — built around a real weekly_recap_v1.py, revised into
+  weekly_recap_v2.py to tag each item by category and print a shipped-count
+  (not a DONE/NEXT split, since this week had no upcoming item). Content:
+  publishing "The AI That Never Forgets" on Substack, producing four
+  Brutalist videos, and attending the team meeting. 16:9 (1:30) + 9:16 (1:35,
+  full-parity reformat, no beats dropped) cuts.
+- `2026-10-04-tutor-they-never-had/` — The Tutor They Never Had: What AI
+  Tutoring Could Mean for Kids Who Have Never Had Extra Help. User asked for a
+  "Deep Explainer" at exactly 4:00 with no footage — the toolkit's actual
+  deep-explainer skill targets 5-10 min and requires archival stills, so built
+  instead on the ai-explainer chassis (disclosed substitution). Warm, neutral,
+  personal tone per explicit request: the hopeful early findings (hybrid
+  human + AI tutoring, a WhatsApp math tutor in Ghana) sit alongside the
+  cautions (access takes more than a device; a college-student study with
+  slightly lower grades), and the single-source cost figures are hedged ("one
+  summary reports"). Generated visuals only (stuck-on-homework scene,
+  cost-comparison bars, simplified Ghana map, child + device + caring adult).
+  16:9 (3:59) + 9:16 (2:39, four middle beats dropped to fit the Shorts cap:
+  access gap, patient tutor, Ghana, home internet).
+- `2026-10-04-weekly-recap-tutor/` — This Week: What's Done, What's Next. A
+  CLI-explainer weekly recap — a separate week's log from the earlier
+  weekly-recap builds — built around a real weekly_recap_v1.py, revised into
+  weekly_recap_v2.py to split DONE-THIS-WEEK from NEXT — both scripts real,
+  both actually run. Content: publishing "The Tutor They Never Had" on
+  Substack, producing four Brutalist videos, finishing the presentation for a
+  Humanitarians AI guest lecture at a college with Yatra (done), and
+  delivering that lecture on Tuesday (next). 16:9 (1:51) + 9:16 (1:55,
+  full-parity reformat, no beats dropped) cuts.
 
 ## Frictional log
 
