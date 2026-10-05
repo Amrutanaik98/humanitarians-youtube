@@ -1,8 +1,10 @@
-# Week 25 topic-video — final
+# Why a Coin Flip Beats This Learning Algorithm
 
-*Why a Coin Flip Beats This Learning Algorithm.* Tanmay Kulkarni, in for Humanitarians AI.
-Publishable set, assembled 2026-10-04. Everything needed to upload, plus the record of how both films
-were verified.
+*Why a Coin Flip Beats This Learning Algorithm.* Tanmay Kulkarni, in for Humanitarians AI · Week 25 topic video ·
+built 2026-10-04
+
+Text and code only. **The two masters live in the shared Google Drive**, not in this repository. See the links below.
+The working folder (audio, clips, stills, QC frames) is outside this repo.
 
 > **This repository copy:** the two `.mp4` masters aren't committed (video is gitignored repo-wide).
 > The Short's files sit alongside the long's instead of in `short/`: `beat_sheet-short.json`,
@@ -34,10 +36,10 @@ boundaries are in `ANGLE.md`.
 | | File | | |
 |---|---|---|---|
 | **Long** | `why-a-coin-flip-beats-this-learning-algorithm-final.mp4` | 3840×2160 · 24 fps · 5:03 (302.6 s) | −15.0 LUFS / −1.9 dBTP |
-| **Short** | `short/why-a-coin-flip-beats-this-learning-algorithm-short-final.mp4` | 2160×3840 · 24 fps · 1:26 (85.9 s) | −15.0 LUFS / −1.9 dBTP |
+| **Short** | `why-a-coin-flip-beats-this-learning-algorithm-short-final.mp4` | 2160×3840 · 24 fps · 1:26 (85.9 s) | −15.0 LUFS / −1.9 dBTP |
 
-Each film carries its captions (`.srt` and `.vtt`) and its YouTube title, description, chapters and
-tags (`*-youtube.md`) beside it. The experiments the film reports are in `experiment/`: plain Python,
+Each film's master is on Drive (below); its captions (`.srt` and `.vtt`) and YouTube title, description, chapters
+and tags (`*-youtube.md`) are in this folder. The experiments the film reports are in `experiment/`: plain Python,
 standard library only, seeded, under a second each.
 
 **Structure:**
@@ -50,12 +52,12 @@ standard library only, seeded, under a second each.
 
 ## Links
 
-Add these once each film is live.
+Add the temporary Drive links now (replace each `<!-- … -->` placeholder), and the YouTube URLs once each film is live.
 
 | | Drive | YouTube |
 |---|---|---|
-| Long (16:9, 4K) | *(to add)* | *(to add)* |
-| Short (9:16, 4K) | *(to add)* | *(to add)* |
+| Long (16:9, 4K) | <!-- DRIVE_LINK_LONG --> *(add Drive link)* | <!-- YOUTUBE_LINK_LONG --> *(to add)* |
+| Short (9:16, 4K) | <!-- DRIVE_LINK_SHORT --> *(add Drive link)* | <!-- YOUTUBE_LINK_SHORT --> *(to add)* |
 
 **Placeholders in the descriptions:**
 1. ~~`[CODE LINK]`~~ **Filled (2026-10-04):** the long's description links the published code,
