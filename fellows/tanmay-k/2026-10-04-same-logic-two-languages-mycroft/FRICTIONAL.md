@@ -3,7 +3,7 @@
 **Record provenance:** drafted 2026-10-04 with Claude from this folder's own records (`ANGLE.md`, `FACTCHECK.md`,
 `PEDAGOGY.md`, `PROOF-REVIEW.md`), after the work was done rather than while it happened. Reviewed by Tanmay. Every entry points at the record it comes from. The recipe work
 itself (what was contributed, keeping others' work safe, the gate decisions) is recorded in the Mycroft repository:
-[the recipe page](https://github.com/Tanmay-Kulk/mycroft/blob/add-contradiction-detection-recipe/recipes/contradiction-detection-agent.md) and its gate-decision records.
+[the recipe page](https://github.com/nikbearbrown/mycroft/blob/main/recipes/contradiction-detection-agent.md) and its gate-decision records.
 
 ## 2026-10-04 — Porting the detector, and what my own testing caught
 
@@ -15,7 +15,7 @@ itself (what was contributed, keeping others' work safe, the gate decisions) is 
 - **What I did next:** added two companies placed exactly on the line (FXR at confidence 0.6, FXQ at a news average of
   0.625); each change now fails on its own company. Step 4 now writes nothing when it stops, and a break test checks it.
 - **Why it's in the film:** these are my own gaps, found by my own checking. They're the film's middle (B07, B08).
-- **Evidence:** [FACTCHECK.md](FACTCHECK.md) (C8, C9), [the recorded self-test](https://github.com/Tanmay-Kulk/mycroft/blob/add-contradiction-detection-recipe/logs/contradiction-detection-agent/self-test-results.md) (section B).
+- **Evidence:** [FACTCHECK.md](FACTCHECK.md) (C8, C9), [the recorded self-test](https://github.com/nikbearbrown/mycroft/blob/main/logs/contradiction-detection-agent/self-test-results.md) (section B).
 
 ## 2026-10-04 — An angle that criticised someone else's work
 
@@ -30,7 +30,7 @@ itself (what was contributed, keeping others' work safe, the gate decisions) is 
   Nothing was removed, and every branch survived.
 - **AI and other contributions:** Claude proposed the first angle, then did the rework. I set the rule: no critique,
   no attribution without proof, a humble tone.
-- **Evidence:** [ANGLE.md](ANGLE.md), [the recipe's *Notes from porting*](https://github.com/Tanmay-Kulk/mycroft/blob/add-contradiction-detection-recipe/recipes/contradiction-detection-agent.md).
+- **Evidence:** [ANGLE.md](ANGLE.md), [the recipe's *Notes from porting*](https://github.com/nikbearbrown/mycroft/blob/main/recipes/contradiction-detection-agent.md).
 
 ## 2026-10-04 — The film: checking my own version
 

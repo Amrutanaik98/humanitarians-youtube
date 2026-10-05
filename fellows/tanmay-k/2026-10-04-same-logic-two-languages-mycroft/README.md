@@ -5,7 +5,7 @@
 Text and code only. **The two masters live in the shared Google Drive**, not in this repository. See the links below.
 The working folder (audio, clips, stills, QC frames) is outside this repo. The Mycroft recipe contribution the films are
 about is in the Mycroft repository: [the recipe on `main`](https://github.com/nikbearbrown/mycroft/blob/main/recipes/contradiction-detection-agent.md)
-and [the contribution's files](https://github.com/Tanmay-Kulk/mycroft/tree/add-contradiction-detection-recipe/).
+and [the contribution's files](https://github.com/nikbearbrown/mycroft/pull/60/files) (merged as PR #60).
 
 ## The work
 
@@ -15,8 +15,8 @@ and a working agentic repository" for finance. I took one recipe,
 and made it run on sample data: the six step scripts it names, a Python port of its detector checked against the
 original workflow's JavaScript, a frozen sample corpus of invented companies, gate tests that can fail, a recorded
 self-test and the human gate decisions that take it to `RUNNABLE-SAMPLE`. The full account, with every file, check
-and decision, is in the Mycroft repository: [the recipe page](https://github.com/Tanmay-Kulk/mycroft/blob/add-contradiction-detection-recipe/recipes/contradiction-detection-agent.md) (its status basis, steps, gates and *Notes from
-porting*) and [the recorded self-test](https://github.com/Tanmay-Kulk/mycroft/blob/add-contradiction-detection-recipe/logs/contradiction-detection-agent/self-test-results.md).
+and decision, is in the Mycroft repository: [the recipe page](https://github.com/nikbearbrown/mycroft/blob/main/recipes/contradiction-detection-agent.md) (its status basis, steps, gates and *Notes from
+porting*) and [the recorded self-test](https://github.com/nikbearbrown/mycroft/blob/main/logs/contradiction-detection-agent/self-test-results.md).
 
 The film is about one question from that work: **I rewrote it in Python. How do I know it still says the same
 thing?** Its answer: two versions agreeing only counts where they had a chance to disagree, so find where they could
