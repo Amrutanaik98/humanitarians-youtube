@@ -76,6 +76,8 @@ Drive links added 2026-10-04. Add the YouTube URL once each film is live (replac
 
 ## The record
 
+- **`FRICTIONAL.md`:** the dated process log: what was tried, where it resisted, what was done next, what
+  Claude contributed and what I decided, each entry pointing at its record.
 - **`FACTCHECK.md`:** A1–A25, every claim checked against the book (2nd ed., printed page numbers) or
   our runs, plus the algebra for 2 − √2. It also audits the source review's own three statistics (one
   qualified: the 19% / 27% controller figures).
