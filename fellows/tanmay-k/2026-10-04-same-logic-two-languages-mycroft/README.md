@@ -44,12 +44,12 @@ tags (`*-youtube.md`) are in this folder.
 
 ## Links
 
-Add the temporary Drive links now (replace each `<!-- … -->` placeholder), and the YouTube URLs once each film is live.
+Drive links added 2026-10-04. Add the YouTube URL once each film is live (replace each `<!-- YOUTUBE_LINK_… -->` placeholder).
 
 | | Drive | YouTube |
 |---|---|---|
-| Long (16:9, 4K) | <!-- DRIVE_LINK_LONG --> *(add Drive link)* | <!-- YOUTUBE_LINK_LONG --> *(to add)* |
-| Short (9:16, 4K) | <!-- DRIVE_LINK_SHORT --> *(add Drive link)* | <!-- YOUTUBE_LINK_SHORT --> *(to add)* |
+| Long (16:9, 4K) | <!-- DRIVE_LINK_LONG --> [Drive](https://drive.google.com/file/d/10VVcDmb82JM3uILcM0c_SnX2sONAYkl5/view?usp=drive_link) | <!-- YOUTUBE_LINK_LONG --> *(to add)* |
+| Short (9:16, 4K) | <!-- DRIVE_LINK_SHORT --> [Drive](https://drive.google.com/file/d/1rUCpSdo6kpppGXKIWAijkPH5pJlAYbY7/view?usp=drive_link) | <!-- YOUTUBE_LINK_SHORT --> *(to add)* |
 | Recipe (Mycroft) | [`recipes/contradiction-detection-agent.md`](https://github.com/nikbearbrown/mycroft/blob/main/recipes/contradiction-detection-agent.md) | — |
 
 **Placeholder in the descriptions:** `[FULL VIDEO LINK]` in the Short's description. Swap in the long's YouTube URL

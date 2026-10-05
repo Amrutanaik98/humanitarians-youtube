@@ -52,12 +52,12 @@ standard library only, seeded, under a second each.
 
 ## Links
 
-Add the temporary Drive links now (replace each `<!-- … -->` placeholder), and the YouTube URLs once each film is live.
+Drive links added 2026-10-04. Add the YouTube URL once each film is live (replace each `<!-- YOUTUBE_LINK_… -->` placeholder).
 
 | | Drive | YouTube |
 |---|---|---|
-| Long (16:9, 4K) | <!-- DRIVE_LINK_LONG --> *(add Drive link)* | <!-- YOUTUBE_LINK_LONG --> *(to add)* |
-| Short (9:16, 4K) | <!-- DRIVE_LINK_SHORT --> *(add Drive link)* | <!-- YOUTUBE_LINK_SHORT --> *(to add)* |
+| Long (16:9, 4K) | <!-- DRIVE_LINK_LONG --> [Drive](https://drive.google.com/file/d/1xb3JBvRdM4qaBNtZhrRZin0au_QbVT2J/view?usp=drive_link) | <!-- YOUTUBE_LINK_LONG --> *(to add)* |
+| Short (9:16, 4K) | <!-- DRIVE_LINK_SHORT --> [Drive](https://drive.google.com/file/d/15Qz8jvks-h7o25QPYlvj5qVfPmmzuAQC/view?usp=drive_link) | <!-- YOUTUBE_LINK_SHORT --> *(to add)* |
 
 **Placeholders in the descriptions:**
 1. ~~`[CODE LINK]`~~ **Filled (2026-10-04):** the long's description links the published code,
