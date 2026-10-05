@@ -1,7 +1,7 @@
 # Satwik S.
 
 **Role:** Research Data Scientist  
-**Project:** _to be filled in_  
+
 **GitHub:** [@SatwikReddySripathi](https://github.com/SatwikReddySripathi)
 
 ## What's in this folder
