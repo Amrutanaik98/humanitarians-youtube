@@ -26,7 +26,7 @@ compare with a commercial tool's result.
 
 ## Human and AI work
 
-**My decisions, implementation and verification:** chose the topic (over the recommended text-to-speech), gave this week's hours, and directed the build; review of the preview pending at the time of writing.
+**My decisions, implementation and verification:** chose the topic (over the recommended text-to-speech), gave this week's hours, and directed the build; reviewed both cuts on 2026-10-06, no changes requested.
 
 **AI tools/voices used and what they generated:** Claude (Claude Code) wrote the evidence script, the six new scenes and the narration, verified the history against Wikipedia, rendered both cuts and drafted these docs. Narration: Kokoro `af_bella`, my one voice for
 the series (AI voice, disclosed on screen).

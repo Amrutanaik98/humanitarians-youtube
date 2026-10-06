@@ -25,7 +25,7 @@ place they get stuck. Then: test OpenReel and DaVinci Resolve on the same footag
 
 ## Human and AI work
 
-**My decisions, implementation and verification:** the handbook's scope and audience, the rejection of the first palette, three review comments, the routing and access answers, keeping it off the public repository; review of this preview pending at the time of writing.
+**My decisions, implementation and verification:** the handbook's scope and audience, the rejection of the first palette, three review comments, the routing and access answers, keeping it off the public repository; reviewed both cuts on 2026-10-06, no changes requested.
 
 **AI tools/voices used and what they generated:** Claude (Claude Code) researched the sources, drafted and built the handbook, and this week built this video (one new scene, six reused), rendered both cuts and drafted these docs. Narration: Kokoro `af_bella`, my one voice for
 the series (AI voice, disclosed on screen).
