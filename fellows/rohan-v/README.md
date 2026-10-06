@@ -4,20 +4,44 @@
 **Project:** Lyrical Literacy  
 **GitHub:** [@rohanvijaykumar](https://github.com/rohanvijaykumar)  
 **Supervisor:** Nina H.  
-**Agreement period:** 11 Aug — 30 Sep 2026
+**Agreement period:** 1 Oct 2026 — 31 Jan 2027 (renewal approved; previous agreement 11 Aug — 30 Sep 2026)
 
-Project Manager for Lyrical Literacy: I coordinate the project and build its onboarding material, the Suno and
-Midjourney tutorial series for new volunteers. I also make two Brutalist videos a week (STEM and progress).
+## Executive summary
 
-**Renewal request:** [RENEWAL.md](./RENEWAL.md) · **Weekly hours:** [HOURS.md](./HOURS.md)
+Project Manager for Lyrical Literacy. I coordinate the project and build its onboarding
+material: the Suno (3 parts) and Midjourney (6 parts) tutorial series and, since 30 Sep, the
+Lyrical Literacy Fellows Handbook (v1.0, item 1 of my renewal plan, delivered a month early).
+I also make two Brutalist videos a week, one STEM and one progress, each in 16:9 and native
+9:16 at 4K, with a Frictional log in every work folder. Next: testing AI video editors for
+Lyrical Literacy (November), then an editing pipeline (by mid-December).
 
-- **Voice:** Kokoro `af_bella`, the same AI narrator on every episode
+## Quick review
+
+- [Renewal request](./RENEWAL.md) (sent 2026-09-28, approved) · [renewal index](./renewal-requests/README.md)
+- [Weekly hours](./weekly-hours/README.md): one file per week · [summary table](./HOURS.md)
+- [Research and project plan](./research-plan.md), with status
+- Latest week: [2026-10-02](#week-of-2026-10-02), submitted late (Monday 5 Oct)
+
+## How this folder is built
+
+- **Voice:** Kokoro `af_bella`, my one narration voice for every episode
 - **Channel chip:** `@HumanitariansAI`
 - **Builder:** `ai-explainer` on the `claude-hai` brand (Pragmatist register)
 
-Rebuild with [brutalist.art](https://github.com/nikbearbrown/brutalist.art). Renders — narration, beat clips and the 4K masters — go to Google Drive, one dated folder per week, and each work folder's README links its own. Anything used to *build* a video (captures, pantry stills, sfx) is committed beside it, per the [fellows README](../README.md).
+Rebuild with [brutalist.art](https://github.com/nikbearbrown/brutalist.art). Renders (narration, beat clips and the 4K masters) go to Google Drive, one dated folder per week, and each work folder's README links its own. Anything used to *build* a video (captures, pantry stills, sfx, evidence data) is committed beside it, per the [fellows README](../README.md).
 
 Every master is 4K: `./art final <reel>` (3840×2160) and `./art final <reel>/vertical --height 3840` (2160×3840).
+
+## Week of 2026-10-02
+
+**Submitted late:** built and sent on Monday 5 Oct; I forgot to submit on Friday 2 Oct. One
+STEM explainer and one progress update, both 16:9 (3840×2160) and native 9:16 (2160×3840).
+Masters in Drive, [`2026-10-02/`](https://drive.google.com/drive/folders/1P5rUqd8BM9Y9-MWwsTVTNtMLx_0FmiEe) (`landscape/`, `vertical/`), named per
+[FELLOWS-SUBMISSION](https://github.com/nikbearbrown/brutalist.art/blob/main/docs/FELLOWS-SUBMISSION.md).
+Hours: [20](./weekly-hours/2026-09-28-weekly-hours.md).
+
+- [How Pitch Correction Works](./2026-10-02-how-pitch-correction-works/): detection, snapping and retune speed, on a corrector I wrote and re-measured, with listening clips (`PitchCorrection_RohanV.mp4`)
+- [Writing the Lyrical Literacy Fellows Handbook](./2026-10-02-writing-the-lyrical-literacy-fellows-handbook/): weekly progress: the handbook v1.0, shown through crops of the real document (`FellowsHandbookUpdate_RohanV.mp4`)
 
 ## Week of 2026-09-25
 
