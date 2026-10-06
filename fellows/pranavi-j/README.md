@@ -26,7 +26,9 @@ for the full report series.
 | 2026-09-14 | [The Link That Pointed Nowhere](2026-09-14-b3-the-link-that-pointed-nowhere/) | Weekly work | Project 29 — Financial Regulatory Intelligence System (`mycroft`) |
 | 2026-09-14 | [RAG: Why "Looking It Up" Doesn't Guarantee It's True](2026-09-14-rag-why-looking-it-up-isnt-enough/) | Weekly STEM | General AI/STEM topic explainer |
 | 2026-09-22 | [The All-Clear That Wasn't All There](2026-09-22-the-all-clear-that-wasnt-all-there/) | Weekly work | Project 29 — Financial Regulatory Intelligence System (`mycroft`) |
+| 2026-09-22 | [Hallucination: Why Sounding Sure Isn't the Same as Being Right](2026-09-22-hallucination-why-sounding-sure-isnt-being-right/) | Weekly STEM | General AI/STEM topic explainer |
 | 2026-09-29 | [The Keyword That Cried Wolf](2026-09-29-the-keyword-that-cried-wolf/) | Weekly work | Project 29 — Financial Regulatory Intelligence System (`mycroft`) |
+| 2026-09-29 | [Tokenization: Why AI Can't Count the Letters in Its Own Words](2026-09-29-tokenization-why-ai-cant-count-its-own-letters/) | Weekly STEM | General AI/STEM topic explainer |
 
 The first three were rebuilt 2026-08-26/28 for program-wide submission requirements: 4K (3840x2160), a title card + executive-summary opening beat, a 9:16 vertical companion (real Manim portrait relayout, not a crop), and self-assessment against each project's `PROOF.md`. Final deliverables are named per the fellowship convention (`Mycroft_SaiPranaviJeedigunta_<date>_<aspect>.mp4` for the weekly-work video, `<TopicName>_SaiPranaviJeedigunta_<date>_<aspect>.mp4` for the weekly-STEM videos) and live inside each project folder alongside the paperwork; code/paperwork for each is pushed to `github.com/nikbearbrown/humanitarians-youtube` on its own branch (see each project's `README.md` for the exact branch/commit).
 
@@ -97,6 +99,25 @@ and 2026-09-29), both built under the same new submission spec and both under th
   Both mycroft fixes behind these two videos are pushed to `github.com/SaiPranaviJeedigunta/mycroft`,
   branch `feature/regulatory-intelligence-hardening` (commit `3e32894`), documented in
   `B5-VERIFICATION.md` and `C2-VERIFICATION.md`.
+
+Two matching weekly-STEM reports, same two backdated weeks, same new submission spec, both kept
+fully generic (no real model/vendor named or benchmarked):
+
+- **Weekly STEM, "Hallucination: Why Sounding Sure Isn't the Same as Being Right":** a
+  framework-first explainer teaching a reusable 3-question rubric (Checkable? / Would It Hedge? /
+  Does Confidence Track Difficulty?) for telling a model's genuine certainty apart from fluent
+  phrasing that merely resembles certainty. Worked example: a fabricated citation delivered in the
+  same confident tone as a real one. Falsifiability case: the same confident tone on a simple,
+  genuinely true fact, stress-testing the rubric against a naive "confident tone = hallucination"
+  over-trigger. Named `HallucinationConfidence_SaiPranaviJeedigunta.mp4`. GATE V: 0 BLOCKER/0 MAJOR
+  on both masters — see its `README.md`/`BUILD-LOG.md`.
+- **Weekly STEM, "Tokenization: Why AI Can't Count the Letters in Its Own Words":** a
+  framework-first explainer on why language models read text as sub-word tokens rather than
+  individual characters, and why that causes character-counting errors. Worked example: the
+  well-known "how many R's in strawberry" class of failure, with the word's real token split shown
+  alongside the model's miscounted tally. Falsifiability case: the same word spelled out
+  letter-by-letter first, now counted correctly. Named `Tokenization_SaiPranaviJeedigunta.mp4`.
+  GATE V: 0 BLOCKER/0 MAJOR on both masters — see its `README.md`/`BUILD-LOG.md`.
 
 ## Fellow folder rename
 
