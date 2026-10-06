@@ -1,8 +1,9 @@
 # Weekly hours — Rohan V.
 
-Hours worked each week of the current agreement (11 Aug — 30 Sep 2026). I kept no
-timesheet, so these are my reconstructed figures. The first two weeks come from the
-weekly reports I wrote at the time.
+Hours worked each week, as the summary table for my renewal. Up to 25 Sep I kept no
+timesheet, so those are my reconstructed figures (the first two weeks come from the weekly
+reports I wrote at the time). From 28 Sep each week also has its own file in
+[weekly-hours/](weekly-hours/README.md).
 
 | Week | Work | Hours |
 |---|---|---|
@@ -13,7 +14,8 @@ weekly reports I wrote at the time.
 | 7–11 Sep | Midjourney interface captures and Parts 1–6; Why Your Track Gets Turned Down and Use the Tool First | 24 |
 | 14–18 Sep | What Bit Depth Does and Why Your Track Sounds Thin On A Phone; HyperFrames install and test edit | 20 |
 | 21–25 Sep | Agentic editing research; onboarding guide started; Image Diffusion and Testing AI Video Editors | 21 |
-| **Total** | | **154** |
+| 28 Sep – 2 Oct | Renewal report and request; Lyrical Literacy Fellows Handbook v1.0 | 20 |
+| **Total** | | **174** |
 
 Hours include video research and production, reviewing Brutalist videos, Lyrical
 Literacy meetings and coordination, and tool testing. Evidence for each week (videos,
