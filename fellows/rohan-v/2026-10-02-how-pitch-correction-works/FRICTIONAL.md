@@ -60,3 +60,5 @@ plug-in without knowing what its two big settings do.
 
 Evidence: `pitch_demo.py`, `evidence/run.log`, `evidence/pitch_demo.json`, `mix_listen.py`,
 `beat_sheet.json`, `vertical/beat_sheet.json`, QC sheets.
+
+**My review, 2026-10-06.** Watched both cuts of this video (16:9 and 9:16) after they were built; no changes requested.
