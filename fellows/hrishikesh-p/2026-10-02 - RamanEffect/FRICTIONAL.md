@@ -29,3 +29,8 @@ Historically, the primary bottleneck in infection diagnosis has been the time re
 
 ## Summary
 By treating Raman spectra as a 1D signal and applying deep residual networks, we can bypass the slow cell-culturing process entirely. The model successfully handles the noise inherent in single-cell Raman scans, identifies the correct antibiotic treatment group, detects antibiotic resistance, and adapts to real-world clinical data via transfer learning.
+
+## Video Links
+
+- [Video 1](https://drive.google.com/file/d/1ql_IYbLr-fX-8Fi8Kog37vFWks64ELmH/view?usp=drive_link)
+- [Video 2](https://drive.google.com/file/d/1wbHRC--hcMLumE4XGLJZSv4KMJ8mZ01s/view?usp=drive_link)
