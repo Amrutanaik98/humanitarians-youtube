@@ -32,18 +32,21 @@ and portrait-specific configuration where applicable.
 
 ## Week of 2026-09-21
 
+- Reviewed and published 14 videos from the Claude_bear folder to the Humanitarians AI YouTube channel.
 - Created [How CDNs Deliver Content So Fast](./2026-09-21_how_cdns_deliver_content_fast/)
   as a Brutalist technical explainer.
 - Continued reviewing Humanitarians AI video content and supporting the YouTube content workflow.
 
 ## Week of 2026-09-14
 
+- Reviewed and published 14 videos from the Claude_bear folder to the Humanitarians AI YouTube channel.
 - Created [How Redis Handles Millions of Requests](./2026-09-18_redis_millions_of_requests/)
   as a Brutalist technical explainer.
 - Continued studying and applying the Brutalist video-production workflow.
 
 ## Week of 2026-09-07
 
+- Reviewed and published 14 videos from the Claude_bear folder to the Humanitarians AI YouTube channel.
 - Created [How Kafka Handles Millions of Events](./2026-09-11-kafka-millions-of-events/)
   as a Brutalist technical explainer.
 - Reviewed the Brutalist production workflow and began contributing to Humanitarians AI
