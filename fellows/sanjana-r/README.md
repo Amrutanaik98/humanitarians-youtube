@@ -23,8 +23,8 @@
 | [09-19-2026-ai-effort-estimation/](09-19-2026-ai-effort-estimation/README.md) | Explainer, using AI for software effort estimation in project management |
 | [09-19-2026-weekly-progress-update/](09-19-2026-weekly-progress-update/README.md) | PM progress report |
 | [09-26-2026-ai-project-management-tools/](09-26-2026-ai-project-management-tools/README.md) | Explainer, AI-native tools for project management workflows |
-| [10-03-2026-the-review-gate/](09-19-2026-weekly-progress-update/README.md) | PM progress report |
-| [10-03-2026-ai-status-reports/](09-19-2026-weekly-progress-update/README.md) | Explainer, trusting AI-written project status reports — the sign-off (verify sourced, current, and complete before you send) |
+| [10-03-2026-the-review-gate/](https://github.com/nikbearbrown/humanitarians-youtube/blob/sanjana-rao/fellows/sanjana-r/10-03-2026%20the-review-gate/README.md) | PM progress report |
+| [10-03-2026-ai-status-reports/](https://github.com/nikbearbrown/humanitarians-youtube/blob/sanjana-rao/fellows/sanjana-r/10-03-2026%20ai-status-reports/README.md) | Explainer, trusting AI-written project status reports — the sign-off (verify sourced, current, and complete before you send) |
 
 ## Frictional log
 
